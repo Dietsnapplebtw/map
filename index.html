@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Chicago Chinatown Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="app" id="app">
+        <div id="map"></div>
+
+        <aside id="info-panel">
+          <div class="panel-header">
+            <input id="searchInput" class="search-input" type="search" placeholder="Search places..." />
+          </div>
+
+          <div class="panel-body">
+            <!-- Back button (hidden by default) -->
+            <div id="backButton" class="back-button" style="display: none;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+              <span>Back</span>
+            </div>
+
+            <!-- Categories view -->
+            <div id="categoryView">
+              <div id="categoryList"></div>
+            </div>
+
+            <!-- Location details view (hidden by default) -->
+            <div id="locationView" style="display: none;">
+              <div id="locationDetails"></div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Toggle button - now outside the panel -->
+        <button class="toggle-btn" id="toggleBtn" title="Collapse/expand panel" aria-label="Toggle panel">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      // Chinatown bounds (approx)
+      const CHINATOWN_BOUNDS = { north: 41.8605, south: 41.8472, west: -87.6478, east: -87.6231};
+      const CHINATOWN_CENTER = { lat: 41.8530, lng: -87.6330 };
+      const MIN_ZOOM = 1, MAX_ZOOM = 26;
+
+      // Map style: hide business POIs, keep public ones and transit
+      const MAP_STYLE = [
+        { featureType: "poi.business", stylers: [{ visibility: "off" }] },
+        { featureType: "administrative", elementType: "labels", stylers: [{ visibility: "off" }] }
+      ];
+
+      // Category config with colors and emoji icons (used for markers and headers)
+      const CATEGORY_ORDER = [
+        { id: "recommended", label: "Recommended", colorClass: "c-recommended", color: "#f5c518", emoji: "⭐" },
+        { id: "attractions", label: "Attractions", colorClass: "c-attractions", color: "#8e44ad", emoji: "📸" },
+        { id: "restaurants", label: "Restaurants", colorClass: "c-restaurants", color: "#e74c3c", emoji: "🍴" },
+        { id: "hotels", label: "Hotels", colorClass: "c-hotels", color: "#e67e22", emoji: "🏨" },
+        { id: "beverage", label: "Beverage", colorClass: "c-beverage", color: "#795548", emoji: "☕" },
+        { id: "dessert", label: "Dessert", colorClass: "c-dessert", color: "#ff6b9d", emoji: "🍰" },
+        { id: "stores", label: "Stores", colorClass: "c-stores", color: "#2980b9", emoji: "🛍️" },
+        { id: "salon", label: "Salon", colorClass: "c-salon", color: "#9c27b0", emoji: "💇" },
+        { id: "beauty", label: "Beauty", colorClass: "c-beauty", color: "#ec407a", emoji: "💄" },
+        { id: "super market", label: "Supermarket", colorClass: "c-supermarket", color: "#4caf50", emoji: "🛒" },
+        { id: "entertainment", label: "Entertainment", colorClass: "c-entertainment", color: "#ff5722", emoji: "🎭" },
+        { id: "transit", label: "Public Transit", colorClass: "c-transit", color: "#16a085", emoji: "🚇" },
+        { id: "parks", label: "Parks", colorClass: "c-parks", color: "#2ecc71", emoji: "🌳" },
+        { id: "parking lots", label: "Parking Lots", colorClass: "c-parkinglots", color: "#607d8b", emoji: "🅿️" }
+      ];
+      const CATEGORY_BY_ID = Object.fromEntries(CATEGORY_ORDER.map(c => [c.id, c]));
+
+      // Places data will be loaded from external file
+      let places = [];
+
+      // Map + markers
+      let map;
+      const markersById = new Map();
+      let currentTooltip = null;
+
+      // Make a colored pin symbol (supports marker label for emoji)
+      function makePinSymbol(hex) {
+        return {
+          path: "M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7z",
+          fillColor: hex,
+          fillOpacity: 1,
+          strokeColor: "#333",
+          strokeWeight: 1,
+          scale: 1.4,
+          anchor: new google.maps.Point(12, 22),     // bottom center
+          labelOrigin: new google.maps.Point(12, 10) // where the emoji sits
+        };
+      }
+
+      function primaryCategoryId(place) {
+        return place.categories && place.categories.length ? place.categories[0] : "attractions";
+      }
+
+      // Tooltip functions - simplified approach
+      function showTooltip(marker, text) {
+        hideTooltip();
+        
+        const tooltip = document.createElement('div');
+        tooltip.className = 'marker-tooltip';
+        tooltip.textContent = text;
+        tooltip.style.visibility = 'hidden'; // Start hidden to measure size
+        document.getElementById('map').appendChild(tooltip);
+        
+        // Use OverlayView for proper positioning
+        const overlay = new google.maps.OverlayView();
+        
+        overlay.onAdd = function() {
+          const panes = this.getPanes();
+          panes.overlayMouseTarget.appendChild(tooltip);
+        };
+        
+        overlay.draw = function() {
+          const projection = this.getProjection();
+          const position = marker.getPosition();
+          
+          if (projection && position) {
+            const pixelPosition = projection.fromLatLngToDivPixel(position);
+            
+            if (pixelPosition) {
+              tooltip.style.left = pixelPosition.x + 'px';
+              tooltip.style.top = (pixelPosition.y - 40) + 'px'; 
+              tooltip.style.visibility = 'visible';
+            }
+          }
+        };
+
+        overlay.onRemove = function() {
+          if (tooltip && tooltip.parentNode) {
+            tooltip.parentNode.removeChild(tooltip);
+          }
+        };
+
+        overlay.setMap(map);
+        currentTooltip = { element: tooltip, overlay: overlay };
+      }
+
+      function hideTooltip() {
+        if (currentTooltip) {
+          if (currentTooltip.overlay) {
+            currentTooltip.overlay.setMap(null);
+          }
+          currentTooltip = null;
+        }
+      }
+
+      // Load places data from external JSON file
+      async function loadPlacesData() {
+        try {
+          const cacheBuster = Date.now();
+          const response = await fetch(`places-data.json?v=${cacheBuster}`);
+          const data = await response.json();
+          places = data.places;
+          console.log('Loaded', places.length, 'places');
+        } catch (error) {
+          console.error('Error loading places data:', error);
+        }
+      }
+
+      async function initMap() {
+        // Load places data first
+        await loadPlacesData();
+        
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: CHINATOWN_CENTER,
+          zoom: 15,
+          minZoom: MIN_ZOOM,
+          maxZoom: MAX_ZOOM,
+          mapTypeControl: false,
+          streetViewControl: false,
+          fullscreenControl: true, // Enable built-in fullscreen control
+          fullscreenControlOptions: {
+            position: google.maps.ControlPosition.LEFT_BOTTOM
+          },
+          clickableIcons: false,
+          styles: MAP_STYLE,
+          restriction: { latLngBounds: CHINATOWN_BOUNDS, strictBounds: true }
+        });
+
+        // Transit overlay
+        const transitLayer = new google.maps.TransitLayer();
+        transitLayer.setMap(map);
+
+        // Build markers with category-specific emoji labels and pin colors
+        places.forEach(place => {
+          const catId = primaryCategoryId(place);
+          const cfg = CATEGORY_BY_ID[catId] || CATEGORY_BY_ID.attractions;
+          const marker = new google.maps.Marker({
+            position: place.position,
+            map,
+            title: place.name,
+            icon: makePinSymbol(cfg.color),
+            label: {
+              text: cfg.emoji,
+              color: "#111",
+              fontSize: "14px",
+              fontWeight: "600"
+            }
+          });
+
+          // Add click listener
+          marker.addListener("click", () => focusPlace(place.id));
+
+          // Add hover listeners for tooltip
+          marker.addListener("mouseover", () => {
+            showTooltip(marker, place.name);
+          });
+
+          marker.addListener("mouseout", () => {
+            hideTooltip();
+          });
+
+          markersById.set(place.id, marker);
+        });
+        
+        // Panel interactions
+        setupPanel();
+        renderCategories(); // initial render
+
+        // Hide tooltip when map is moved or clicked
+        map.addListener("drag", hideTooltip);
+        map.addListener("zoom_changed", hideTooltip);
+        map.addListener("click", hideTooltip);
+      }
+
+      // Panel toggle, search, rendering
+      function setupPanel() {
+        const appEl = document.getElementById("app");
+        const toggleBtn = document.getElementById("toggleBtn");
+        const searchInput = document.getElementById("searchInput");
+        const backButton = document.getElementById("backButton");
+
+        toggleBtn.addEventListener("click", () => {
+          appEl.classList.toggle("collapsed");
+        });
+
+        searchInput.addEventListener("input", () => {
+          renderCategories(searchInput.value.trim().toLowerCase());
+        });
+
+        backButton.addEventListener("click", () => {
+          showCategoryView();
+        });
+      }
+
+      function showCategoryView() {
+        document.getElementById("categoryView").style.display = "block";
+        document.getElementById("locationView").style.display = "none";
+        document.getElementById("backButton").style.display = "none";
+        document.getElementById("searchInput").style.display = "block";
+      }
+
+      function showLocationView() {
+        document.getElementById("categoryView").style.display = "none";
+        document.getElementById("locationView").style.display = "block";
+        document.getElementById("backButton").style.display = "flex";
+        document.getElementById("searchInput").style.display = "none";
+      }
+
+      function matchQuery(place, q) {
+        if (!q) return true;
+        const hay = (place.name + " " + (place.description || "") + " " + (place.tags || []).join(" ")).toLowerCase();
+        return hay.includes(q);
+      }
+
+      function renderCategories(query = "") {
+        const container = document.getElementById("categoryList");
+        container.innerHTML = "";
+
+        CATEGORY_ORDER.forEach(cat => {
+          const inCat = places.filter(p => p.categories.includes(cat.id) && matchQuery(p, query));
+          
+          // Skip empty categories when searching
+          if (query && inCat.length === 0) return;
+
+          const section = document.createElement("section");
+          section.className = "cat-section";
+          section.dataset.cat = cat.id;
+
+          const header = document.createElement("div");
+          header.className = "cat-header";
+          header.innerHTML = `
+            <span class="cat-left">
+              <span class="cat-emoji" title="${cat.label}">${cat.emoji}</span>
+              <span>${cat.label}</span>
+            </span>
+            <span style="display: flex; align-items: center; gap: 8px;">
+              <span class="cat-count">${inCat.length}</span>
+              <svg class="cat-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </span>
+          `;
+          
+          // Add click handler to toggle category
+          header.addEventListener("click", () => {
+            const isExpanded = section.classList.contains("expanded");
+            section.classList.toggle("expanded", !isExpanded);
+          });
+          
+          section.appendChild(header);
+
+          const list = document.createElement("ul");
+          list.className = "cat-list";
+
+          if (!query && inCat.length === 0) {
+            const empty = document.createElement("div");
+            empty.className = "empty";
+            empty.textContent = "No items yet.";
+            section.appendChild(empty);
+          } else {
+            inCat.forEach(place => {
+              const li = document.createElement("li");
+              li.className = "cat-item";
+              li.dataset.id = place.id;
+
+              const primary = primaryCategoryId(place);
+              const colorClass = (CATEGORY_BY_ID[primary] || CATEGORY_BY_ID.attractions).colorClass;
+
+              li.innerHTML = `
+                <span class="dot ${colorClass}"></span>
+                <span>${place.name}</span>
+              `;
+              li.addEventListener("click", (e) => {
+                e.stopPropagation(); // Prevent category toggle when clicking on item
+                focusPlace(place.id);
+              });
+              list.appendChild(li);
+            });
+          }
+
+          section.appendChild(list);
+          container.appendChild(section);
+        });
+      }
+
+      function focusPlace(placeId) {
+        const place = places.find(p => p.id === placeId);
+        if (!place) return;
+        const marker = markersById.get(placeId);
+
+        map.panTo(place.position);
+        if (map.getZoom() < 16) map.setZoom(16);
+
+        if (marker) {
+          // Hide any existing tooltip
+          hideTooltip();
+        }
+
+        showDetails(place);
+
+        // Ensure panel open
+        const appEl = document.getElementById("app");
+        if (appEl.classList.contains("collapsed")) {
+          appEl.classList.remove("collapsed");
+        }
+      }
+
+      function showDetails(place) {
+        const details = document.getElementById("locationDetails");
+        
+        // Build media content with gallery
+let mediaHtml = "";
+
+// Collect all media items (photos and videos)
+const mediaItems = [];
+
+// Add primary photo/video first
+if (place.video) {
+  mediaItems.push({ type: 'video', src: place.video, alt: place.name });
+} else if (place.photo) {
+  mediaItems.push({ type: 'image', src: place.photo, alt: place.name });
+}
+
+// Add gallery items if they exist
+if (place.gallery && place.gallery.length > 0) {
+  place.gallery.forEach(item => {
+    mediaItems.push(item);
+  });
+}
+
+if (mediaItems.length > 0) {
+  const mainItem = mediaItems[0];
+  
+  // Main media display
+  if (mainItem.type === 'video') {
+    mediaHtml = `
+      <div class="media">
+        <iframe id="mainMedia" src="${mainItem.src}" allowfullscreen></iframe>
+    `;
+  } else {
+    mediaHtml = `
+      <div class="media">
+        <img id="mainMedia" src="${mainItem.src}" alt="${mainItem.alt || place.name}" />
+    `;
+  }
+  
+  // Add thumbnail gallery if more than one item
+  if (mediaItems.length > 1) {
+    mediaHtml += `
+      <div class="media-gallery">
+        <div class="gallery-thumbnails">
+    `;
+    
+    mediaItems.forEach((item, index) => {
+      const isActive = index === 0 ? 'active' : '';
+      const thumbSrc = item.type === 'video' ? 
+        `https://img.youtube.com/vi/${extractYouTubeId(item.src)}/mqdefault.jpg` : 
+        item.src;
+      
+      mediaHtml += `
+        <div class="thumbnail ${isActive}" data-index="${index}" data-type="${item.type}" data-src="${item.src}">
+          <img src="${thumbSrc}" alt="${item.alt || place.name}" />
+          ${item.type === 'video' ? '<div class="play-icon">â–¶</div>' : ''}
+        </div>
+      `;
+    });
+    
+    mediaHtml += `
+        </div>
+      </div>
+    `;
+  }
+  
+  mediaHtml += `</div>`;
+}
+
+        // Build address section
+        let addressHtml = "";
+        if (place.address) {
+          addressHtml = `
+            <div class="address">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>${place.address}</span>
+            </div>
+          `;
+        }
+
+        // Build action buttons
+        let actionsHtml = `<div class="actions">`;
+        
+        // Directions button (always show)
+        const lat = place.position.lat;
+        const lng = place.position.lng;
+        const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=driving`;
+        
+        actionsHtml += `
+          <a href="${directionsUrl}" target="_blank" class="btn primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 11l19-9-9 19-2-8-8-2z"></path>
+            </svg>
+            Get Directions
+          </a>
+        `;
+
+        // More Info button (if website exists)
+        if (place.website) {
+          actionsHtml += `
+            <a href="${place.website}" target="_blank" class="btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M2 12h20"></path>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              More Info
+            </a>
+          `;
+        }
+
+        actionsHtml += `</div>`;
+
+        // Assemble final HTML - media first, then title, address, description, actions
+        details.innerHTML = `
+          ${mediaHtml}
+          <h2>${place.name}</h2>
+          ${addressHtml}
+          <p>${place.description || ""}</p>
+          ${actionsHtml}
+        `;
+
+        // Switch to location view
+        showLocationView();
+
+        setupGallery();
+      }
+      function extractYouTubeId(url) {
+  const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([^&\n?#]+)/);
+  return match ? match[1] : '';
+}
+
+function setupGallery() {
+  const thumbnails = document.querySelectorAll('.thumbnail');
+  if (thumbnails.length <= 1) return;
+  
+  thumbnails.forEach(thumb => {
+    thumb.addEventListener('click', () => {
+      // Remove active class from all thumbnails
+      thumbnails.forEach(t => t.classList.remove('active'));
+      
+      // Add active class to clicked thumbnail
+      thumb.classList.add('active');
+      
+      // Update main media
+      const mainMedia = document.getElementById('mainMedia');
+      const type = thumb.dataset.type;
+      const src = thumb.dataset.src;
+      
+      if (type === 'video') {
+        // Replace with iframe
+        const iframe = document.createElement('iframe');
+        iframe.id = 'mainMedia';
+        iframe.src = src;
+        iframe.allowFullscreen = true;
+        mainMedia.parentNode.replaceChild(iframe, mainMedia);
+      } else {
+        // Replace with img
+        const img = document.createElement('img');
+        img.id = 'mainMedia';
+        img.src = src;
+        img.alt = thumb.querySelector('img').alt;
+        mainMedia.parentNode.replaceChild(img, mainMedia);
+      }
+    });
+  });
+}
+      // Expose for console
+      window.focusPlace = focusPlace;
+    </script>
+
+    <!-- Google Maps API - using a demo key, replace with your own -->
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNDkhldj0ECUkMzYJpqGlXbRfmKYLw6Sc&v=weekly&callback=initMap&loading=async"></script>
+  </body>
+</html>

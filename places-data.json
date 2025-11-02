@@ -1,0 +1,3506 @@
+{
+  "places": [
+    {
+      "id": "chinatown-square",
+      "name": "Chinatown Square",
+      "categories": [
+        "recommended",
+        "attractions"
+      ],
+      "position": {
+        "lat": 41.8451,
+        "lng": -87.6336
+      },
+      "address": "2133 S China Pl, Chicago, IL 60616",
+      "description": "Outdoor plaza with shops and zodiac statues at the heart of Chinatown. Features traditional Chinese architecture and hosts various cultural events throughout the year.",
+      "photo": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,w_1800,h_800/crm/chicago/A.Alexander_SU4A12970_8ba5f5fa-5056-a36f-23023799f04ac99c.jpg",
+      "website": "https://www.choosechicago.com/listing/chinatown-square",
+      "tags": [
+        "plaza",
+        "zodiac",
+        "shopping"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://media.timeout.com/images/101710703/image.jpg",
+          "alt": "Chinatown Square"
+        },
+        {
+          "type": "image",
+          "src": "https://travelsandtreasures.com/wp-content/uploads/2023/02/family_activities_chicago_chinatown-6-1024x765.jpg",
+          "alt": "Chinatown Square"
+        }
+      ]
+    },
+    {
+      "id": "nine-dragon-wall",
+      "name": "Nine Dragon Wall",
+      "categories": [
+        "attractions"
+      ],
+      "position": {
+        "lat": 41.8531,
+        "lng": -87.6314
+      },
+      "address": "2315 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A colorful replica of Beijing's Nine-Dragon Wall, featuring intricate ceramic dragons and traditional Chinese artistry. Perfect spot for photos and cultural appreciation.",
+      "photo": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,w_1800,h_800/crm/chicago/A.Alexander_SU4A13380_8b969243-5056-a36f-23f4aa63dd188805.jpg",
+      "website": "https://www.choosechicago.com/listing/nine-dragon-wall/",
+      "tags": [
+        "mural",
+        "landmark",
+        "photo"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://www.artatsite.com/Chicago/images/beelden/groot/unkown-Nine-Dragon-Wall-modern-contemporary-statue-sculpture-art-at-site-artatsite-Chicago.jpg",
+          "alt": "Nine Dragon Wall"
+        }
+      ]
+    },
+    {
+      "id": "ping-tom-park",
+      "name": "Ping Tom Memorial Park",
+      "categories": [
+        "recommended",
+        "parks"
+      ],
+      "position": {
+        "lat": 41.8573,
+        "lng": -87.6344
+      },
+      "address": "300 W 19th St, Chicago, IL 60616",
+      "description": "Scenic riverside park with stunning Chicago skyline views and pagoda-style pavilion. Popular for walking, jogging, and family gatherings with playgrounds and picnic areas.",
+      "photo": "https://media.cntraveler.com/photos/5f8f04ccf5bb028212972925/16:9/w_2560%2Cc_limit/pingtommemorialpark-chicago-MR01ND.jpg",
+      "website": "https://www.chicagoparkdistrict.com/parks-facilities/ping-tom-memorial-park",
+      "tags": [
+        "park",
+        "river",
+        "view"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://offloadmedia.feverup.com/secretchicago.com/wp-content/uploads/2023/06/02083419/Ping-Tom-Park-scaled.jpg",
+          "alt": "Ping Tom Memorial Park"
+        },
+        {
+          "type": "image",
+          "src": "https://media.cntraveler.com/photos/5f8f04ccf5bb028212972925/16:9/w_2560%2Cc_limit/pingtommemorialpark-chicago-MR01ND.jpg",
+          "alt": "Ping Tom Memorial Park"
+        },
+        {
+          "type": "image",
+          "src": "https://assets.dnainfo.com/generated/chicago_photo/2013/05/bucket-list-chinatown-water-taxi-1368477552.jpg/extralarge.jpg",
+          "alt": "Ping Tom Memorial Park"
+        }
+      ]
+    },
+    {
+      "id": "cermak-chinatown-station",
+      "name": "Cermak-Chinatown Station (Red Line)",
+      "categories": [
+        "transit"
+      ],
+      "position": {
+        "lat": 41.8531,
+        "lng": -87.6309
+      },
+      "address": "2112 S Wentworth Ave, Chicago, IL 60616",
+      "description": "CTA Red Line station serving Chinatown along Cermak Road. Features beautiful Chinese-inspired architecture and provides easy access to downtown Chicago.",
+      "photo": "https://www.transitchicago.com/assets/1/6/stationheader_rd_cermak-chinatown.jpg",
+      "website": "https://www.transitchicago.com/redline/",
+      "tags": [
+        "cta",
+        "train",
+        "red line"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Cermak-Chinatown.jpg",
+          "alt": "Cermak-Chinatown Station (Red Line)"
+        }
+      ]
+    },
+    {
+      "id": "lao-sze-chuan",
+      "name": "Lao Sze Chuan",
+      "categories": [
+        "restaurants",
+        "recommended"
+      ],
+      "position": {
+        "lat": 41.8533,
+        "lng": -87.6349
+      },
+      "address": "2172 S Archer Ave, Chicago, IL 60616",
+      "description": "Renowned Sichuan restaurant famous for authentic spicy dishes like dry chili chicken, mapo tofu, and hand-pulled noodles. A must-visit for lovers of bold, fiery flavors.",
+      "photo": "https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/cms/media/reviews/lao-sze-chuan/banners/Lao-Sze-Chuan_0",
+      "website": "https://www.laoszechuan.com/",
+      "tags": [
+        "sichuan",
+        "spicy",
+        "dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/cms/media/reviews/lao-sze-chuan/banners/Lao-Sze-Chuan_0",
+          "alt": "Interior view"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/TLqYoD-fDZ4?si=S5tJy1MJTyjzx9vk",
+          "alt": "Chef cooking"
+        }
+      ]
+    },
+    {
+      "id": "chiu-quon-bakery",
+      "name": "Chiu Quon Bakery",
+      "categories": [
+        "stores"
+      ],
+      "position": {
+        "lat": 41.8514,
+        "lng": -87.6317
+      },
+      "address": "2242 S Wentworth Ave, Chicago, IL 60616",
+      "description": "Traditional Chinese bakery established in 1986, known for fresh baked buns, pastries, and authentic Chinese sweets. Try their famous BBQ pork buns and egg tarts.",
+      "photo": "https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/cms/reviews/chiu-quon-bakery-1/banners/1642030059.9319062",
+      "website": "https://www.cqbakery.com",
+      "tags": [
+        "bakery",
+        "pastry",
+        "buns"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/b-337NezTpe8W27Od1ck2A/o.jpg",
+          "alt": "Chiu Quon Bakery"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/2G4QGlaZI2e2sCO7skIyVw/o.jpg",
+          "alt": "Chiu Quon Bakery"
+        }
+      ]
+    },
+    {
+      "id": "chinatown-visitor-center",
+      "name": "Chinatown Visitor Center",
+      "categories": [
+        "recommended",
+        "attractions"
+      ],
+      "position": {
+        "lat": 41.85317,
+        "lng": -87.63185
+      },
+      "address": "2189 S Wentworth Ave, Chicago, IL 60616",
+      "description": "Your guide to dining, shopping, and sightseeing in this vibrant community. Enjoy free maps, hanfu try-ons, guided tours, fun workshops, Chinatown-exclusive souvenirs, coupons, and pedicab service.",
+      "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/05/22/28/caption.jpg?w=1000&h=-1&s=1",
+      "website": "https://www.52chinatown.com/",
+      "tags": [
+        "guide",
+        "tour",
+        "workshop",
+        "hanfu",
+        "souvenirs",
+        "coupons",
+        "pedicab"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3.us-east-2.amazonaws.com/wp.static/52chinatown/2025/06/05033533/20250805-113406.jpg",
+          "alt": "Chinatown Visitor Center"
+        },
+        {
+          "type": "image",
+          "src": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/b6/f2/66.jpg",
+          "alt": "Chinatown Visitor Center"
+        }
+      ]
+    },
+    {
+      "id": "chinatown-public-library",
+      "name": "Chinatown Public Library",
+      "categories": [
+        "recommended"
+      ],
+      "position": {
+        "lat": 41.8539983068886,
+        "lng": -87.6321482318227
+      },
+      "address": "2100 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A modern community hub offering books, technology, and cultural programs that celebrate Chinese heritage and serve residents and visitors alike.",
+      "photo": "https://chipublib.bibliocommons.com/events/uploads/images/full/b4c2f1ea58572c02e4ed70cd0bb1a18f/chinatown.jpg",
+      "website": "https://www.chipublib.org/locations/20/",
+      "tags": [
+        "library",
+        "community",
+        "chineseCulture",
+        "reading",
+        "learning",
+        "cpl",
+        "education"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://chipublib.bibliocommons.com/events/uploads/images/full/b4c2f1ea58572c02e4ed70cd0bb1a18f/chinatown.jpg",
+          "alt": "Chinatown Public Library"
+        },
+        {
+          "type": "image",
+          "src": "https://map.lisc-cnda.org/static/1134931d9dca124162af89fe4b08a1a3/8e2a4/featured.jpg",
+          "alt": "Chinatown Public Library"
+        },
+        {
+          "type": "image",
+          "src": "https://d39lxsrz40jt15.cloudfront.net/downloads/EDG2012/o_1bupd6q95hl710ho1o4a1k0l1scu24.jpg",
+          "alt": "Chinatown Public Library"
+        }
+      ]
+    },
+    {
+      "id": "chinatown-gateway",
+      "name": "Chinatown Gateway",
+      "categories": [
+        "recommended",
+        "attractions"
+      ],
+      "position": {
+        "lat": 41.8526223579526,
+        "lng": -87.6320131793143
+      },
+      "address": "2206 S Wentworth Ave, Chicago, IL 60616",
+      "description": "The Chinatown Gateway is a grand ornamental arch marking the entrance to Chicago’s Chinatown, inscribed with the phrase “The world belongs to the people,” symbolizing welcome, unity, and cultural pride.",
+      "photo": "https://img1.advisor.travel/1200x630px-Chinatown_Chicago_5.jpg",
+      "tags": [
+        "landmark",
+        "cultural symbol",
+        "traditional Chinese arch",
+        "entrance gate",
+        "cultural heritage",
+        "tourist attraction",
+        "Chinese architecture"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://img1.advisor.travel/1200x630px-Chinatown_Chicago_5.jpg",
+          "alt": "Chinatown Gateway"
+        }
+      ]
+    },
+    {
+      "id": "pui-tak-center",
+      "name": "Pui Tak Center",
+      "categories": [
+        "recommended",
+        "attractions"
+      ],
+      "position": {
+        "lat": 41.8523914349895,
+        "lng": -87.6321226916136
+      },
+      "address": "2216 S Wentworth Ave, Chicago, IL 60616",
+      "description": "The Pui Tak Center is a historic landmark and community hub in Chicago’s Chinatown, offering educational, cultural, and social services within its beautifully restored 1920s building.",
+      "photo": "https://playeatlas.com/wp-content/uploads/2024/07/Pui-Tak-Center-scaled.jpg",
+      "website": "https://www.puitak.org/",
+      "tags": [
+        "historic landmark",
+        "community center",
+        "cultural heritage",
+        "education",
+        "architecture"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://playeatlas.com/wp-content/uploads/2024/07/Pui-Tak-Center-scaled.jpg",
+          "alt": "Pui Tak Center"
+        }
+      ]
+    },
+    {
+      "id": "jaslin-hotel",
+      "name": "Jaslin Hotel",
+      "categories": [
+        "hotels"
+      ],
+      "position": {
+        "lat": 41.8526004437805,
+        "lng": -87.6343623715485
+      },
+      "address": "261 W Cermak Rd, Chicago, IL 60616",
+      "description": "A modern boutique hotel in the heart of Chicago’s Chinatown, offering comfortable accommodations with easy access to dining, shopping, and downtown attractions.",
+      "photo": "https://images.letgroup.com/erTBBiYCPz/jqg_1478044628.jpg",
+      "website": "https://www.jaslinhotel.com/",
+      "tags": [
+        "hotel",
+        "accommodations",
+        "travel"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://images.letgroup.com/erTBBiYCPz/jqg_1478044628.jpg",
+          "alt": "Jaslin Hotel"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=xGFzZKZ0kyM",
+          "alt": "Jaslin Hotel"
+        }
+      ]
+    },
+    {
+      "id": "springhill-suites-by-marriot",
+      "name": "Springhill Suites by Marriot",
+      "categories": [
+        "hotels"
+      ],
+      "position": {
+        "lat": 41.849444352222,
+        "lng": -87.6317253512361
+      },
+      "address": "2357 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A contemporary all-suite hotel offering spacious accommodations, modern amenities, and convenient access to the vibrant culture and cuisine of Chinatown.",
+      "photo": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,w_1800,h_800/crm/chicago/facade-2-_5869EA21-5056-A36F-237552B665FE505C_5235e332-5056-a36f-2313f70f6e398db2.jpg",
+      "website": "https://www.marriott.com/en-us/hotels/chisn-springhill-suites-chicago-chinatown/overview/",
+      "tags": [
+        "hotel",
+        "accommodations",
+        "travel"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,w_1800,h_800/crm/chicago/facade-2-_5869EA21-5056-A36F-237552B665FE505C_5235e332-5056-a36f-2313f70f6e398db2.jpg",
+          "alt": "Springhill Suites by Marriot"
+        },
+        {
+          "type": "image",
+          "src": "https://images.letgroup.com/erTBBiYCPz/jqg_1478044974.jpg",
+          "alt": "Springhill Suites by Marriot"
+        },
+        {
+          "type": "image",
+          "src": "https://images.letgroup.com/erTBBiYCPz/jqg_1463521277.jpg",
+          "alt": "Springhill Suites by Marriot"
+        }
+      ]
+    },
+    {
+      "id": "sweet-floral",
+      "name": "Sweet Floral",
+      "categories": [
+        "stores"
+      ],
+      "position": {
+        "lat": 41.85263,
+        "lng": -87.63351
+      },
+      "address": "237 W Cermak Rd, Chicago, IL 60616",
+      "description": "A charming flower shop in Chicago’s Chinatown specializing in fresh floral arrangements, custom designs, and gifts for any occasion.",
+      "photo": "https://fa8ffa61f13fcd246862.cdn6.editmysite.com/uploads/b/fa8ffa61f13fcd246862ed848129460e18b6faf2dbc02708eb8e03ccb5f51169/20230403-1J1A6584_1746200657.jpg?width=2400&optimize=medium",
+      "website": "https://www.sweetfloralchicago.com/",
+      "tags": [
+        "flower",
+        "giftshop"
+      ],
+      "gallery": [
+        {
+          "type": "iamge",
+          "src": "https://fa8ffa61f13fcd246862.cdn6.editmysite.com/uploads/b/fa8ffa61f13fcd246862ed848129460e18b6faf2dbc02708eb8e03ccb5f51169/20230403-1J1A6584_1746200657.jpg?width=2400&optimize=medium",
+          "alt": "Sweet Floral"
+        },
+        {
+          "type": "image",
+          "src": "https://www.youtube.com/shorts/QCNfXbpSHiY",
+          "alt": "Sweet Floral"
+        }
+      ]
+    },
+    {
+      "id": "buddhism-friendship-association",
+      "name": "Buddhism Friendship Association",
+      "categories": [
+        "recommended"
+      ],
+      "position": {
+        "lat": 41.85146,
+        "lng": -87.63185
+      },
+      "address": "2251 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A cultural and religious center dedicated to promoting Buddhist teachings, community engagement, and intercultural friendship.",
+      "photo": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/61/06/16/front-of-the-building.jpg",
+      "website": "https://www.ibfachicagotemple.org/",
+      "tags": [
+        "buddhist",
+        "religious",
+        "spiritual education"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/61/06/16/front-of-the-building.jpg",
+          "alt": "Buddhism Friendship Association"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=V7b0yrr0K6I",
+          "alt": "Buddhism Friendship Association"
+        }
+      ]
+    },
+    {
+      "id": "chinese-american-museum-of-chicago",
+      "name": "Chinese American Museum of Chicago",
+      "categories": [
+        "recommended",
+        "attractions"
+      ],
+      "position": {
+        "lat": 41.8513398215025,
+        "lng": -87.6335220029871
+      },
+      "address": "238 W 23rd St, Chicago, IL 60616",
+      "description": "The Chinese American Museum of Chicago preserves and showcases the history, culture, and contributions of Chinese Americans through engaging exhibits and educational programs.",
+      "photo": "https://www.mocanyc.org/wp-content/uploads/2022/09/DSCF4813-1200x1800.jpg",
+      "website": "https://ccamuseum.org/",
+      "tags": [
+        "asian american heritage",
+        "exhibits",
+        "education",
+        "chinese culture"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://www.mocanyc.org/wp-content/uploads/2022/09/DSCF4813-1200x1800.jpg",
+          "alt": "Chinese American Museum of Chicago"
+        },
+        {
+          "type": "image",
+          "src": "https://southsideweekly.com/wp-content/uploads/2017/03/CAM_2017_9.jpg",
+          "alt": "Chinese American Museum of Chicago"
+        }
+      ]
+    },
+    {
+      "id": "daebak-Korean-bbq",
+      "name": "Daebak Korean BBQ",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85481,
+        "lng": -87.63264
+      },
+      "address": "2017 S Wells St Square, Chicago, IL 60616",
+      "description": "Industrial-chic venue offering table-grilled Korean BBQ & other classics amid industrial decor.",
+      "photo": "https://i.pinimg.com/736x/46/5f/c0/465fc0059b234a9456e683d0c0642962.jpg",
+      "tags": [
+        "korean food",
+        "bbq"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://i.pinimg.com/736x/46/5f/c0/465fc0059b234a9456e683d0c0642962.jpg",
+          "alt": "Daebak Korean BBQ"
+        },
+        {
+          "type": "image",
+          "src": "https://img1.wsimg.com/isteam/ip/145b0400-f1e3-4ae8-a687-02d515aa60aa/Daebak%20-%20Grilling.jpg",
+          "alt": "Daebak Korean BBQ"
+        }
+      ]
+    },
+    {
+      "id": "hunan-cuisine",
+      "name": "Hunan Cuisine",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85494,
+        "lng": -87.63197
+      },
+      "address": "2002 S Wentworth Ave Unit 100, Chicago, IL 60616",
+      "description": "A vibrant restaurant in Chinatown serving authentic, bold-flavored Hunan dishes known for their spiciness and rich, savory flavors.",
+      "photo": "https://img1.feinfood.com/upload/hotel2/20231105/7db8121c85d744a6a5da4cd8a17f774a.jpg",
+      "website": "https://hunancuisinechicago.square.site/",
+      "tags": [
+        "sichuan-style",
+        "spicy",
+        "hunan cuisine",
+        "authentic"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://img1.feinfood.com/upload/hotel2/20231105/7db8121c85d744a6a5da4cd8a17f774a.jpg",
+          "alt": "Hunan Cuisine"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/shorts/PucjKGsMq3Q",
+          "alt": "Hunan Cuisine"
+        }
+      ]
+    },
+    {
+      "id": "imperial-restaurant",
+      "name": "Imperial Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8547141964655,
+        "lng": 87.6322961606583
+      },
+      "address": "2100 S Archer Ave, Chicago, IL 60616",
+      "description": "A Hong Kong-style dim sum restaurant serving a variety of bite-sized dumplings, buns, and savory dishes, perfect for sharing and enjoying traditional Cantonese flavors.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/0Q6c44jVX5_SE7oF-wxBVA/348s.jpg",
+      "website": "https://imperialchinatown.com/",
+      "tags": [
+        "dim sum",
+        "hongkong",
+        "cantonese cuisine",
+        "bite-sized dishes",
+        "dumplings",
+        "buns",
+        ""
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/0Q6c44jVX5_SE7oF-wxBVA/348s.jpg",
+          "alt": "Imperial Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://static.wixstatic.com/media/45f381_7331963a716d4fbeaf2dd114cfb7bdc1~mv2.jpg/v1/fill/w_640,h_558,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/45f381_7331963a716d4fbeaf2dd114cfb7bdc1~mv2.jpg",
+          "alt": "Imperial Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://cdn.menu-world.com/imperial-restaurant/photo-3.jpg",
+          "alt": "Imperial Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "ken-kee-restaurant",
+      "name": "Ken Kee Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8544,
+        "lng": -87.63327
+      },
+      "address": "2129 S China Pl, Chicago, IL 60616",
+      "description": "A beloved Chinatown spot serving authentic Hong Kong–style comfort food, noodles, and café classics in a lively, modern setting.",
+      "photo": "https://images.squarespace-cdn.com/content/v1/5eb3059f9086967f5fee3f8b/1616399421835-G7IGIJ0PM7MMOBWR7BGT/%C2%A9DLM+Photography+Design_KenKee_27.jpg",
+      "website": "https://kenkee.com/",
+      "tags": [
+        "hong kong",
+        "hk café",
+        "comfort food",
+        "noodles"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://images.squarespace-cdn.com/content/v1/5eb3059f9086967f5fee3f8b/1616399421835-G7IGIJ0PM7MMOBWR7BGT/%C2%A9DLM+Photography+Design_KenKee_27.jpg",
+          "alt": "Ken Kee Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://images.squarespace-cdn.com/content/v1/5eb3059f9086967f5fee3f8b/1936a938-85dc-40bd-ba28-b3b3018ffb45/%C2%A9DLM+Photography+Design_KenKee_26.jpg",
+          "alt": "Ken Kee Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://images.squarespace-cdn.com/content/v1/5eb3059f9086967f5fee3f8b/1616399511804-LNQT14MKV2MTESPCDF2D/%C2%A9DLM+Photography+Design_KenKeeFood_180.jpg",
+          "alt": "Ken Kee Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "kung-fu-tea",
+      "name": "Kung Fu Tea",
+      "categories": [
+        "beverage"
+      ],
+      "position": {
+        "lat": 41.8543730928764,
+        "lng": -87.6328882587799
+      },
+      "address": "2126B S Archer Ave, Chicago, IL 60616",
+      "description": "A popular bubble tea shop known for its freshly brewed teas, customizable drinks, and wide variety of classic and creative flavors.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/Ryt2RPGpU74zjZmNWJsEGA/o.jpg",
+      "website": "https://www.kungfutea.com/",
+      "tags": [
+        "bubble tea",
+        "boba tea",
+        "milk tea",
+        "fruit tea",
+        "tea shop",
+        "customizable drinks",
+        "freshly brewed tea",
+        "asian beverage"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Ryt2RPGpU74zjZmNWJsEGA/o.jpg",
+          "alt": "Kung Fu Tea"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=R7JTt1XKQ7w",
+          "alt": "Kung Fu Tea"
+        },
+        {
+          "type": "image",
+          "src": "https://media.timeout.com/images/101709987/750/422/image.jpg",
+          "alt": "Kung Fu Tea"
+        }
+      ]
+    },
+    {
+      "id": "zhangliang-malatang-chicago",
+      "name": "Zhangliang Malatang Chicago",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8551,
+        "lng": -87.63199
+      },
+      "address": "2002 S Wentworth Ave STE 102, Chicago, IL 60616",
+      "description": "A vibrant hot pot eatery where guests customize their own bowls with fresh ingredients and enjoy authentic, spicy Sichuan-style flavors.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/mUADWPDAPXetap1oIT8s1Q/258s.jpg",
+      "tags": [
+        "malatang",
+        "sichuan cuisine",
+        "spicy",
+        "hot pot",
+        "customizable bowls",
+        "street food"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/mUADWPDAPXetap1oIT8s1Q/258s.jpg",
+          "alt": "Zhangliang Malatang Chicago"
+        },
+        {
+          "type": "image",
+          "src": "https://website-cdn.menusifu.com/wp-content/uploads/zhangliangtrivalleyca.com/2024/11/86500261-75d5-404a-a190-6efea61192ae-scaled.jpg",
+          "alt": "Zhangliang Malatang Chicago"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/bWsqCazw86IQKB6N75Fa3g/348s.jpg",
+          "alt": "Zhangliang Malatang Chicago"
+        }
+      ]
+    },
+    {
+      "id": "new-great-wall bbq",
+      "name": "New Great Wall BBQ",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85444,
+        "lng": -87.63319
+      },
+      "address": "2127 S China Pl, Chicago, IL 60616",
+      "description": "A lively Chinatown restaurant specializing in authentic Chinese-style barbecue, featuring tender roasted meats and traditional flavorful dishes.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/tqb26xzJXjfKME2HAlgi5w/l.jpg",
+      "website": "https://new-great-wall-bbq.bartgrocerybbq.com/",
+      "tags": [
+        "chinese barbecue",
+        "roasted meats",
+        "cantonese bbq",
+        "casual dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/tqb26xzJXjfKME2HAlgi5w/l.jpg",
+          "alt": "New Great Wall BBQ"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/SoOpx9FNfJtAivLee1JCgg/348s.jpg",
+          "alt": "New Great Wall BBQ"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/vUdYGwX5EGi7MiLcxwrIlw/348s.jpg",
+          "alt": "New Great Wall BBQ"
+        }
+      ]
+    },
+    {
+      "id": "qingxiangyuan-dumplings",
+      "name": "QingXiangYuan Dumplings",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85517,
+        "lng": -87.63199
+      },
+      "address": "2002 S Wentworth Ave #103, Chicago, IL 60616",
+      "description": "A popular eatery specializing in handmade dumplings, noodles, and authentic Northern Chinese comfort food.",
+      "photo": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2025/04/qxy-1024x768.jpg?resize=1024%2C768&ssl=1",
+      "website": "https://qxydumpling.com/",
+      "tags": [
+        "handmade dumplings",
+        "northern chinese cuisine"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2025/04/qxy-1024x768.jpg?resize=1024%2C768&ssl=1",
+          "alt": "QingXiangYuan Dumplings"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=Omx3gdtBILQ",
+          "alt": "QingXiangYuan Dumplings"
+        },
+        {
+          "type": "image",
+          "src": "https://media.timeout.com/images/105362789/750/422/image.jpg",
+          "alt": "QingXiangYuan Dumplings"
+        },
+        {
+          "type": "image",
+          "src": "https://media-cdn.tripadvisor.com/media/photo-s/11/19/2d/24/other-guests.jpg",
+          "alt": "QingXiangYuan Dumplings"
+        }
+      ]
+    },
+    {
+      "id": "szechuan-bistro",
+      "name": "Szechuan Bistro",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85509,
+        "lng": -87.63213
+      },
+      "address": "2002 S Wentworth Ave B10, Chicago, IL 60616",
+      "description": "A Chicago Chinatown restaurant known for its bold, spicy flavors and authentic Sichuan dishes that showcase the signature heat and numbing spice of Chinese cuisine.",
+      "photo": "https://static.where-e.com/United_States/Illinois_State/Szechuan-Bistro_ee3134c56f557c157e5a76932da8461d.jpg",
+      "tags": [
+        "bold flavors",
+        "chili pepper",
+        "hot and spicy"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Illinois_State/Szechuan-Bistro_ee3134c56f557c157e5a76932da8461d.jpg",
+          "alt": "Szechuan Bistro"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/the-infatuation/image/upload/v1684941909/images/RichlandCenter_Interior_DerrickKoch_Chicago-11_f6ei0s.jpg",
+          "alt": "Szechuan Bistro"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/lrFtBrVAuTICspR5G1CaoQ/348s.jpg",
+          "alt": "Szechuan Bistro"
+        }
+      ]
+    },
+    {
+      "id": "tiger-sugar",
+      "name": "Tiger Sugar",
+      "categories": [
+        "beverage"
+      ],
+      "position": {
+        "lat": 41.85442,
+        "lng": -87.63264
+      },
+      "address": "2116 S Archer Ave 1st Floor, Chicago, IL 60616",
+      "description": "A famous bubble tea shop in Chicago’s Chinatown known for its signature brown sugar boba milk and rich, creamy flavors crafted with freshly prepared ingredients.",
+      "photo": "https://travelsandtreasures.com/wp-content/uploads/2023/02/family_activities_chicago_chinatown-17.jpg",
+      "website": "https://www.tigersugarchicago.com/",
+      "tags": [
+        "bubble tea",
+        "boba tea",
+        "brown sugar milk tea",
+        "tapioca pearls"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://travelsandtreasures.com/wp-content/uploads/2023/02/family_activities_chicago_chinatown-17.jpg",
+          "alt": "Tiger Sugar"
+        },
+        {
+          "type": "image",
+          "src": "https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/qpuxksgv/140aea91-64b4-4eab-a4a0-fb88fb3480d3.jpg",
+          "alt": "Tiger Sugar"
+        },
+        {
+          "type": "image",
+          "src": "https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/qpuxksgv/a8e6710a-ce7c-4af0-8464-7587f3afcdbd.jpg",
+          "alt": "Tiger Sugar"
+        }
+      ]
+    },
+    {
+      "id": "ume-tea",
+      "name": "Ume Tea",
+      "categories": [
+        "beverage"
+      ],
+      "position": {
+        "lat": 41.85503,
+        "lng": -87.63199
+      },
+      "address": "2002 S Wentworth Ave Ste 101, Chicago, IL 60616",
+      "description": "A trendy tea shop offering handcrafted bubble teas, fruit teas, and creative drinks made with fresh ingredients and vibrant flavors.",
+      "photo": "https://static.where-e.com/United_States/Ume-Tea_2c2ec3cbc54ab34dea7eb87404970735.jpg",
+      "website": "https://www.umetea.com/",
+      "tags": [
+        "bubble tea",
+        "boba tea",
+        "fruit tea",
+        "handcrafted drinks",
+        "tea shop",
+        "asian beverages"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Ume-Tea_2c2ec3cbc54ab34dea7eb87404970735.jpg",
+          "alt": "Ume Tea"
+        },
+        {
+          "type": "image",
+          "src": "https://imgcache.dealmoon.com/fsvrugccache.dealmoon.com/ugc/693/54d/ed3/515dd005b13fa22d7a1cef4.jpg_1280_1280_3_e1ae.jpg",
+          "alt": "Ume Tea"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/8c3b2wiiy1tX0opsAfuEfQ/348s.jpg",
+          "alt": "Ume Tea"
+        }
+      ]
+    },
+    {
+      "id": "veggie-house",
+      "name": "Veggie House",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85463,
+        "lng": -87.6328
+      },
+      "address": "2109 S China Pl, Chicago, IL 60616",
+      "description": "A popular vegetarian restaurant serving a wide variety of flavorful plant-based Chinese dishes in a casual, family-friendly setting.",
+      "photo": "https://media.tzuchi.us/wp-content/uploads/sites/5/2020/09/18161908/TzuchiUSA-veggie-house-chicago_0004_20200917_Veggie-House_YM_%E9%A6%AC%E6%A8%82_2-1350x762.jpg",
+      "website": "https://www.veggiehouseusa.com/",
+      "tags": [
+        "vegetarian",
+        "vegan Chinese cuisine",
+        "plant-based dishes",
+        "meatless dining",
+        "healthy Chinese food",
+        "veggie-friendly",
+        "vegan-friendly"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://media.tzuchi.us/wp-content/uploads/sites/5/2020/09/18161908/TzuchiUSA-veggie-house-chicago_0004_20200917_Veggie-House_YM_%E9%A6%AC%E6%A8%82_2-1350x762.jpg",
+          "alt": "Veggie House"
+        },
+        {
+          "type": "image",
+          "src": "https://media.tzuchi.us/wp-content/uploads/sites/5/2020/09/18161915/TzuchiUSA-veggie-house-chicago_0006_20200917_Veggie-House_YM_%E9%A6%AC%E6%A8%82_1-1024x578.jpg",
+          "alt": "Veggie House"
+        },
+        {
+          "type": "image",
+          "src": "https://www.chicagotribune.com/wp-content/uploads/migration/2022/03/28/WQXG2U3TXNCJLHBPZEVQTI37BQ.jpg",
+          "alt": "Veggie House"
+        },
+        {
+          "type": "image",
+          "src": "https://www.chicagotribune.com/wp-content/uploads/migration/2022/03/24/6DPS5VYKSBHZRDHETAJQHCW4YE.jpg",
+          "alt": "Veggie House"
+        }
+      ]
+    },
+    {
+      "id": "yep-kitchen",
+      "name": "Yep Kitchen",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85449,
+        "lng": -87.63248
+      },
+      "address": "2108 S Archer Ave 1st Floor, Chicago, IL 60616",
+      "description": "A contemporary eatery offering a wide selection of classic Chinese dishes and customizable hot pot in a casual, welcoming atmosphere.",
+      "photo": "https://www.yepkitchenchicago.com/images/about_img_1.jpg",
+      "website": "https://www.yepkitchenchicago.com/",
+      "tags": [
+        "hot pot",
+        "customizable hot pot",
+        "classic chinese dishes"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://www.yepkitchenchicago.com/images/about_img_1.jpg",
+          "alt": "Yep Kitchen"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=1VGfhhH8kKs",
+          "alt": "Yep Kitchen"
+        },
+        {
+          "type": "image",
+          "src": "https://s.yimg.com/bj/7b17/7b179d223c75b191b286063f7d5c8404.jpg",
+          "alt": "Yep Kitchen"
+        },
+        {
+          "type": "image",
+          "src": "https://www.yepkitchenchicago.com/images/hotpot_img_1.jpg",
+          "alt": "Yep Kitchen"
+        }
+      ]
+    },
+    {
+      "id": "bbq-king",
+      "name": "B.B.Q. King",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85372,
+        "lng": -87.63406
+      },
+      "address": "2148 S Archer Ave, Chicago, IL 60616",
+      "description": "A vibrant restaurant specializing in traditional Hong Kong-style barbecue, offering a variety of roasted meats and flavorful, casual dining options.",
+      "photo": "https://media-cdn.tripadvisor.com/media/photo-s/16/84/c0/9f/bbq-king-house.jpg",
+      "tags": [
+        "hong kong style",
+        "chinese barbecue",
+        "roasted meats",
+        "cantonese bbq"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://media-cdn.tripadvisor.com/media/photo-s/16/84/c0/9f/bbq-king-house.jpg",
+          "alt": "B.B.Q. King"
+        },
+        {
+          "type": "image",
+          "src": "https://media.timeout.com/images/105389866/image.jpg",
+          "alt": "B.B.Q. King"
+        },
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Illinois/Cook_County/Bbq-King_8c9159b6904499ff020acd2f64369398.jpg",
+          "alt": "B.B.Q. King"
+        }
+      ]
+    },
+    {
+      "id": "bonchon-korean-fried-chicken",
+      "name": "Bonchon Korean Fried Chicken",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8537202054063,
+        "lng": -87.6348311678858
+      },
+      "address": "2163 S China Pl #1f, Chicago, IL 60616",
+      "description": "A popular eatery known for its crispy, double-fried Korean-style chicken, flavorful sauces, and casual, vibrant dining atmosphere.",
+      "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/26/21/8d/store-front.jpg?w=1200&h=1200&s=1",
+      "website": "https://www.bonchon.com/",
+      "tags": [
+        "korean fried chicken",
+        "crispy chicken",
+        "korean cuisine",
+        "korean food",
+        "chicken wings",
+        "korean restaurant",
+        "group dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/26/21/8d/store-front.jpg?w=1200&h=1200&s=1",
+          "alt": "Bonchon Korean Fried Chicken"
+        },
+        {
+          "type": "image",
+          "src": "https://antiochherald.com/wp-content/uploads/2022/08/Bonchon-Korean-Style-Chicken-2.jpg",
+          "alt": "Bonchon Korean Fried Chicken"
+        }
+      ]
+    },
+    {
+      "id": "chi-café",
+      "name": "Chi Café",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8535797953926,
+        "lng": -87.6345490412815
+      },
+      "address": "2160 S Archer Ave, Chicago, IL 60616",
+      "description": "A cozy eatery offering a variety of comforting Asian-inspired dishes, including noodles, rice bowls, and house specialties, in a casual, welcoming setting.",
+      "photo": "https://d15z892a5np5w4.cloudfront.net/production/chi-cafe-chicago-il-3/images/b880e77569bef864f2/mobilemainbg.jpg",
+      "website": "https://www.chicafeonline.com/",
+      "tags": [
+        "asian cuisine",
+        "chinese food",
+        "noodles",
+        "rice bowls",
+        "house specialties",
+        "casual dining",
+        "cozy restaurant"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://d15z892a5np5w4.cloudfront.net/production/chi-cafe-chicago-il-3/images/b880e77569bef864f2/mobilemainbg.jpg",
+          "alt": "Chi Café"
+        },
+        {
+          "type": "image",
+          "src": "https://d15z892a5np5w4.cloudfront.net/production/chi-cafe-chicago-il-3/pictures/img8108-20180808024849.jpg",
+          "alt": "Chi Café"
+        },
+        {
+          "type": "image",
+          "src": "https://hedonistshedonist.com/wp-content/uploads/2015/08/chi-cafe-salt-and-pepper-pork-chops1.jpg",
+          "alt": "Chi Café"
+        },
+        {
+          "type": "image",
+          "src": "https://s.yimg.com/bj/ec5a/ec5a01b5fdb12d6293ec29f123282574.jpg",
+          "alt": "Chi Café"
+        }
+      ]
+    },
+    {
+      "id": "daboba-tea",
+      "name": "Daboba Tea",
+      "categories": [
+        "beverage"
+      ],
+      "position": {
+        "lat": 41.8539112848266,
+        "lng": -87.6338658296437
+      },
+      "address": "2142 S Archer Ave, Chicago, IL 60616",
+      "description": "A trendy bubble tea shop famous for its roasted brown sugar milk, chewy tapioca pearls, and a variety of freshly brewed, customizable drinks.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/GE5EwnAI7aXe24lYpZJj7A/258s.jpg",
+      "website": "https://www.daboba.us/",
+      "tags": [
+        "bubble tea",
+        "boba tea",
+        "roasted brown sugar milk",
+        "tapioca pearls",
+        "milk tea",
+        "fruit tea",
+        "handcrafted drinks",
+        "sweet drinks"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/GE5EwnAI7aXe24lYpZJj7A/258s.jpg",
+          "alt": "Daboba Tea"
+        },
+        {
+          "type": "image",
+          "src": "https://travelsandtreasures.com/wp-content/uploads/2023/11/boba_tea_shop-chicago-7-1024x766.jpg",
+          "alt": "Daboba Tea"
+        },
+        {
+          "type": "image",
+          "src": "https://apis3.fantuan.ca/image/goods/1743179398607085568_cover.jpg",
+          "alt": "Daboba Tea"
+        }
+      ]
+    },
+    {
+      "id": "hing-kee-restaurant",
+      "name": "Hing Kee Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85397,
+        "lng": -87.63382
+      },
+      "address": "2140 S Archer Ave, Chicago, IL 60616",
+      "description": "A family-friendly eatery known for serving some of the city’s best dumplings and soup noodles in a casual, welcoming atmosphere.",
+      "photo": "https://media-cdn.tripadvisor.com/media/photo-s/09/85/e6/77/hing-kee-asian-cuisine.jpg",
+      "website": "https://www.hingkeechinatown.com/",
+      "tags": [
+        "dumplings",
+        "soup noodles",
+        "cantonese cuisine"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://media-cdn.tripadvisor.com/media/photo-s/09/85/e6/77/hing-kee-asian-cuisine.jpg",
+          "alt": "Hing Kee Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://static.wixstatic.com/media/9057f7_3eb065ff79fb4b76bd67c31a3bd8fdb1~mv2.jpg/v1/fill/w_640,h_660,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9057f7_3eb065ff79fb4b76bd67c31a3bd8fdb1~mv2.jpg",
+          "alt": "Hing Kee Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://media-cdn.tripadvisor.com/media/photo-s/29/86/c1/d8/caption.jpg",
+          "alt": "Hing Kee Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "joy-yee",
+      "name": "Joy Yee",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85407,
+        "lng": -87.63387
+      },
+      "address": "2139 S China Pl, Chicago, IL 60616",
+      "description": "A vibrant pan-Asian restaurant and café known for its extensive menu of Asian fusion dishes, fresh smoothies, and colorful bubble teas.",
+      "photo": "https://joyyeenoodle.weebly.com/uploads/5/4/2/1/54217271/9592445.jpg",
+      "website": "https://joyyee.com/",
+      "tags": [
+        "asian fusion",
+        "pan-asian cuisine",
+        "bubble tea",
+        "smoothies",
+        "noodles",
+        "rice dishes",
+        "asian café"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://joyyeenoodle.weebly.com/uploads/5/4/2/1/54217271/9592445.jpg",
+          "alt": "Joy Yee"
+        },
+        {
+          "type": "image",
+          "src": "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_1200,q_auto,fl_lossy,dpr_auto,c_fill,f_auto,h_800,g_auto/oqkfnh7bh5uq8vivfjhg",
+          "alt": "Joy Yee"
+        },
+        {
+          "type": "image",
+          "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/e9/6c/cf/caption.jpg?w=900&h=500&s=1",
+          "alt": "Joy Yee"
+        },
+        {
+          "type": "image",
+          "src": "https://assets0.dostuffmedia.com/uploads/aws_asset/aws_asset/7590966/3032ce5c-09a3-4675-a344-2279149d4fe1.jpg",
+          "alt": "Joy Yee"
+        }
+      ]
+    },
+    {
+      "id": "kajiken-japanese",
+      "name": "Kajiken Japanese",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85367,
+        "lng": -87.63473
+      },
+      "address": "2161 S China Pl Unit A, Chicago, IL 60616",
+      "description": "A cozy Japanese eatery in Chinatown specializing in authentic mazemen, or brothless ramen, served with flavorful sauces and fresh toppings.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/gkm1Pa3IPlW8BPJVbDDF4w/o.jpg",
+      "website": "https://souplessramenchicago.com/",
+      "tags": [
+        "japanese restaurant",
+        "mazemen",
+        "ramen",
+        "brothless ramen",
+        "Japanese noodles",
+        "authentic japanese food",
+        "asian cuisine"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/gkm1Pa3IPlW8BPJVbDDF4w/o.jpg",
+          "alt": "Kajiken Japanese"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/QctJrSHpaQebae3DDiebnA/348s.jpg",
+          "alt": "Kajiken Japanese"
+        },
+        {
+          "type": "image",
+          "src": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/2489735a-573f-4b98-9778-95e76d0bc687.jpg",
+          "alt": "Kajiken Japanese"
+        }
+      ]
+    },
+    {
+      "id": "lee-wing-wah",
+      "name": "Lee Wing Wah",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8539,
+        "lng": -87.63417
+      },
+      "address": "2147 S China Pl, Chicago, IL 60616",
+      "description": "A longtime favorite serving traditional Cantonese dishes, noodles, and stir-fries in a casual, family-style setting.",
+      "photo": "https://media.timeout.com/images/101483981/image.jpg",
+      "website": "https://www.leewingwah.com/",
+      "tags": [
+        "cantonese cuisine",
+        "chinese restaurant",
+        "noodles",
+        "stir-fry",
+        "traditional chinese food",
+        "family-style dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://media.timeout.com/images/101483981/image.jpg",
+          "alt": "Lee Wing Wah"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/GsWowIOumoPIjKGX7BpFAg/o.jpg",
+          "alt": "Lee Wing Wah"
+        },
+        {
+          "type": "iamge",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/DNBF1SFE1N6GNeZy2FerjQ/o.jpg",
+          "alt": "Lee Wing Wah"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/IAZ5eAyyHzvT9hJYIWpdag/o.jpg",
+          "alt": "Lee Wing Wah"
+        }
+      ]
+    },
+    {
+      "id": "mccb-restaurant",
+      "name": "MCCB Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85391,
+        "lng": -87.63365
+      },
+      "address": "2138 S Archer Ave, Chicago, IL 60616",
+      "description": "Warm, casual outlet offering elevated & modern Sichuan & Canton fare such as charcoal grilled fish.",
+      "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/40/77/1c/caption.jpg?w=1200&h=1200&s=1",
+      "website": "https://www.mccbchicago.com/",
+      "tags": [
+        "stylish dining",
+        "creative chinese food",
+        "Asian fusion",
+        "chinese restaurant"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/40/77/1c/caption.jpg?w=1200&h=1200&s=1",
+          "alt": "MCCB Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://urbanmatter.com/chicago/wp-content/uploads/2020/08/MCCB0.jpg",
+          "alt": "MCCB Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://urbanmatter.com/chicago/wp-content/uploads/2020/08/MCCB1.jpg",
+          "alt": "MCCB Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "mango-mango-dessert",
+      "name": "Mango Mango Dessert",
+      "categories": [
+        "dessert"
+      ],
+      "position": {
+        "lat": 41.85371,
+        "lng": -87.63476
+      },
+      "address": "2161 S China Pl 2nd fl, Chicago, IL 60616",
+      "description": "A popular dessert café specializing in fresh, sweet mango-based treats, shaved ice, and refreshing Asian-inspired desserts.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/eviTIYLwSz35qgpWIEhPKg/348s.jpg",
+      "website": "https://www.mangomangodessert.com/",
+      "tags": [
+        "dessert café",
+        "mango desserts",
+        "shaved ice",
+        "asian desserts",
+        "sweet treats",
+        "fruit-based desserts",
+        "refreshing desserts"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/eviTIYLwSz35qgpWIEhPKg/348s.jpg",
+          "alt": "Mango Mango Dessert"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/RK6gcofWrO-ON9hGN3Rt8Q/348s.jpg",
+          "alt": "Mango Mango Dessert"
+        }
+      ]
+    },
+    {
+      "id": "matcha-en",
+      "name": "Matcha En",
+      "categories": [
+        "dessert"
+      ],
+      "position": {
+        "lat": 41.8536,
+        "lng": -87.635
+      },
+      "address": "2167 S China Pl, Chicago, IL 60616",
+      "description": "A contemporary café specializing in authentic Japanese matcha drinks, desserts, and tea-based beverages in a modern, relaxing setting.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/Re0WFK3Nvz0VP29VhXGfhQ/348s.jpg",
+      "website": "https://www.matcha-en.com/",
+      "tags": [
+        "matcha drinks",
+        "japanese tea",
+        "tea café",
+        "japanese desserts",
+        "asian beverages",
+        "green tea desserts",
+        "traditional matcha"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Re0WFK3Nvz0VP29VhXGfhQ/348s.jpg",
+          "alt": "Matcha En"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/-4zITw8bg6eszb4zCkW9Vg/258s.jpg",
+          "alt": "Matcha En"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/WWkDC10mHWSLXwxvXZknvg/258s.jpg",
+          "alt": "Matcha En"
+        }
+      ]
+    },
+    {
+      "id": "minghin-cuisine",
+      "name": "Minghin Cuisine",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85334,
+        "lng": -87.63482
+      },
+      "address": "2168 S Archer Ave, Chicago, IL 60616",
+      "description": "A renowned restaurant offering an extensive menu of authentic Cantonese dishes, including dim sum, seafood, and classic Chinese favorites in an elegant setting.",
+      "photo": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/eb/0c/55/photo3jpg.jpg",
+      "website": "https://www.minghincuisine.com/chinatown",
+      "tags": [
+        "cantonese cuisine",
+        "dim sum",
+        "seafood"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/eb/0c/55/photo3jpg.jpg",
+          "alt": "Minghin Cuisine"
+        },
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Illinois/Cook_County_County/Minghin-Cuisine_a478925d1fb5668f993a55af0fa412a4.jpg",
+          "alt": "Minghin Cuisine"
+        },
+        {
+          "type": "image",
+          "src": "https://forkingchicago.com/wp-content/uploads/sites/7/2017/07/HoH89ATC6MYp6aHcsGQ9NQ.jpg",
+          "alt": "Minghin Cuisine"
+        },
+        {
+          "type": "image",
+          "src": "https://media.timeout.com/images/100894623/image.jpg",
+          "alt": "Minghin Cuisine"
+        }
+      ]
+    },
+    {
+      "id": "saint's-alp-teahouse",
+      "name": "Saint's Alp Teahouse",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85377,
+        "lng": -87.63461
+      },
+      "address": "2157 S China Pl, Chicago, IL 60616",
+      "description": "A cozy café specializing in Taiwanese-style bubble teas, milk teas, fruit drinks, and light snacks in a relaxed, modern setting.",
+      "photo": "https://static.where-e.com/United_States/Saints-Alp-Teahouse_e751137fe38c33da1c40fd9ab3378cd1.jpg",
+      "website": "https://www.saintsalpchicago.com/",
+      "tags": [
+        "bubble tea",
+        "boba tea",
+        "milk tea",
+        "fruit drinks",
+        "taiwanese tea",
+        "tea café",
+        "asian beverages",
+        "tea shop",
+        "light snacks"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Saints-Alp-Teahouse_e751137fe38c33da1c40fd9ab3378cd1.jpg",
+          "alt": "Saint's Alp Teahouse"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/JKYnx4Gzz_35rMMyVp8Ppw/348s.jpg",
+          "alt": "Saint's Alp Teahouse"
+        },
+        {
+          "type": "image",
+          "src": "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_1200,q_auto,fl_lossy,dpr_auto,c_fill,f_auto,h_800,g_auto/bpp128tjseflqyzguvtg",
+          "alt": "Saint's Alp Teahouse"
+        }
+      ]
+    },
+    {
+      "id": "te'amo-bubble-tea",
+      "name": "Te'Amo Bubble Tea",
+      "categories": [
+        "beverage"
+      ],
+      "position": {
+        "lat": 41.85353,
+        "lng": -87.63501
+      },
+      "address": "2169 A S China Pl, Chicago, IL 60616",
+      "description": "A health-focused tea shop dedicated to sharing the tradition, culture, and wellness benefits of tea through handcrafted drinks made with the highest quality organic ingredients.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/22CABMYW0jwt8I6EjiPzeA/o.jpg",
+      "website": "https://www.teamobobabar.com/",
+      "tags": [
+        "bubble tea",
+        "boba tea",
+        "healthy drinks",
+        "organic ingredients",
+        "tea culture",
+        "wellness drinks",
+        "antioxidant tea",
+        "nutritious drinks",
+        "asian beverages",
+        "tea shop"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/22CABMYW0jwt8I6EjiPzeA/o.jpg",
+          "alt": "Te'Amo Bubble Tea"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/JJBOkORjedXacYllS2TsBQ/348s.jpg",
+          "alt": "Te'Amo Bubble Tea"
+        },
+        {
+          "type": "image",
+          "src": "https://media.bizj.us/view/img/12467679/27912787313319566306461422097470655119749166n*1200xx1440-1439-0-0.jpg",
+          "alt": "Te'Amo Bubble Tea"
+        },
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Illinois/Cook_County_County/Teamo-Boba-Bar_639758b927acb3e37be8201ef0dba89f.jpg",
+          "alt": "Te'Amo Bubble Tea"
+        }
+      ]
+    },
+    {
+      "id": "ahjoomah's-apron-korean-restaurant",
+      "name": "Ahjoomah's Apron Korean Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8530747296514,
+        "lng": -87.6326217913743
+      },
+      "address": "218 W Cermak Rd, Chicago, IL 60616",
+      "description": "Korean fare such as bibimbap, kalbi & bulgogi, soups, appetizers & stir-fries in ultramodern eatery.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/XkFC6oqmjgW_fQW9L6Eimw/o.jpg",
+      "website": "https://www.ahjoomahchicago.com/",
+      "tags": [
+        "korean restaurant",
+        "korean cuisine",
+        "traditional Korean dishes",
+        "homestyle Korean food",
+        "bibimbap",
+        "korean bbq",
+        "spicy korean dishes",
+        "korean comfort food"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/XkFC6oqmjgW_fQW9L6Eimw/o.jpg",
+          "alt": "Ahjoomah's Apron Korean Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/7t44B24oGChgukGX1wTUMg/348s.jpg",
+          "alt": "Ahjoomah's Apron Korean Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://images.otstatic.com/prod/25864808/1/large.jpg",
+          "alt": "Ahjoomah's Apron Korean Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "chef-xiong's-taste-of-szechuan",
+      "name": "Chef Xiong's Taste of Szechuan",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85339,
+        "lng": -87.63331
+      },
+      "address": "2143 S Archer Ave, Chicago, IL 60616",
+      "description": "Traditional Sichuan cuisine including specialty hot pots, served in a colorful modern setting.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/WI1onRJuQpJF0dMnYkvolQ/l.jpg",
+      "website": "https://www.chefxiongszechuan.com/",
+      "tags": [
+        "sichuan cuisine",
+        "spicy",
+        "mala spice",
+        "bold flavors",
+        "traditional Sichuan dishes",
+        "hot and spicy food"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/WI1onRJuQpJF0dMnYkvolQ/l.jpg",
+          "alt": "Chef Xiong's Taste of Szechuan"
+        },
+        {
+          "type": "image",
+          "src": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/3d7128ae-27df-4988-b705-6904cd3a8417.jpg",
+          "alt": "Chef Xiong's Taste of Szechuan"
+        },
+        {
+          "type": "image",
+          "src": "https://s.yimg.com/bj/aef5/aef5f08fc5e9e3c30e278731bc4cd3ad.jpg",
+          "alt": "Chef Xiong's Taste of Szechuan"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/047N9e1rNSZtSuWSW-0KVg/o.jpg",
+          "alt": "Chef Xiong's Taste of Szechuan"
+        }
+      ]
+    },
+    {
+      "id": "dongpo-impression",
+      "name": "Dongpo Impression",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85309,
+        "lng": -87.63293
+      },
+      "address": "228 W Cermak Rd, Chicago, IL 60616",
+      "description": "Unpretentious Chinese restaurant highlighting regional specialties from Sichuan with a BYOB policy.",
+      "photo": "https://www.chengdubistroloop.com/Contents/images/items/item5.jpg",
+      "website": "https://www.dongpoimpression.com/",
+      "tags": [
+        "sichuan cuisine",
+        "spicy chinese food",
+        "authentic chinese dishes",
+        "mala flavor"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://www.chengdubistroloop.com/Contents/images/items/item5.jpg",
+          "alt": "Dongpo Impression"
+        },
+        {
+          "type": "image",
+          "src": "https://d15z892a5np5w4.cloudfront.net/production/greenfish-poke-roll-wauwatosa-wi-3/images/b882b791726debf48e/slide1-20230410070118.jpg",
+          "alt": "Dongpo Impression"
+        },
+        {
+          "type": "image",
+          "src": "https://www.chicagomag.com/wp-content/archive/images/2020/1220/C202012-T-Dongpo-Impression.jpg",
+          "alt": "Dongpo Impression"
+        }
+      ]
+    },
+    {
+      "id": "golden-bull-restaurant",
+      "name": "Golden Bull Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85301,
+        "lng": -87.63348
+      },
+      "address": "242 W Cermak Rd, Chicago, IL 60616",
+      "description": "Long-running sit-down spot for classic Chinese plates like chow mein & orange chicken.",
+      "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/2e/ee/fe/photo0jpg.jpg?w=1100&h=1100&s=1",
+      "website": "https://goldenbull.menu/",
+      "tags": [
+        "cantonese cuisine",
+        "dim sum",
+        "seafood",
+        "family-style dining",
+        "asian cuisine"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/2e/ee/fe/photo0jpg.jpg?w=1100&h=1100&s=1",
+          "alt": "Golden Bull Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/AmzfPb5b9DXdXe9Qh5tsug/1200x800.jpg",
+          "alt": "Golden Bull Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Cmy6p_NmGopgyD3am0PmqA/348s.jpg",
+          "alt": "Golden Bull Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "phoenix-restaurant",
+      "name": "Phoenix Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85357,
+        "lng": -87.63307
+      },
+      "address": "2131 S Archer Ave, Chicago, IL 60616",
+      "description": "No-frills standby for numerous authentic offerings from rolling carts plus standard Chinese dishes.",
+      "photo": "https://travelsandtreasures.com/wp-content/uploads/2024/06/chicago_chinatown_food_walking_tour_review-.jpg",
+      "website": "https://www.phoenixrestaurantchicago.com/",
+      "tags": [
+        "dim sum",
+        "cantonese cuisine",
+        "chinese restaurant",
+        "seafood",
+        "authentic chinese food",
+        "family-style dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://travelsandtreasures.com/wp-content/uploads/2024/06/chicago_chinatown_food_walking_tour_review-.jpg",
+          "alt": "Phoenix Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/the-infatuation/image/upload/v1674164676/images/Furama_Dim_Sum_Chicago_cnmrtw.jpg",
+          "alt": "Phoenix Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://classicchicagomagazine.com/wp-content/uploads/2025/07/Phoenix-Restaurant.jpg",
+          "alt": "Phoenix Restaurant"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/shorts/kTIe6AjsOFc",
+          "alt": "Phoenix Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "sushi-plus",
+      "name": "Sushi Plus",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8535955783471,
+        "lng": -87.6329428572836
+      },
+      "address": "2131 S Archer Ave, Chicago, IL 60616",
+      "description": "A modern Japanese restaurant featuring a rotating sushi bar and a variety of fresh sushi, sashimi, and Japanese dishes in a lively, casual setting.",
+      "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/60/3e/85/caption.jpg?w=1100&h=1100&s=1",
+      "website": "https://www.rotarysushi.com/",
+      "tags": [
+        "rotary sushi bar",
+        "japanese restaurant",
+        "sushi",
+        "sashimi",
+        "fresh seafood",
+        "Japanese cuisine",
+        "conveyor belt sushi",
+        "casual dining",
+        "Japanese dishes",
+        "modern sushi bar",
+        "group dining",
+        "sushi restaurant"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/60/3e/85/caption.jpg?w=1100&h=1100&s=1",
+          "alt": "Sushi Plus"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/kw-xzrcscnE?si=ivUDTv7pOhGJarxV&amp;start=10",
+          "alt": "Sushi Plus"
+        },
+        {
+          "type": "image",
+          "src": "https://static.wixstatic.com/media/f97806_cfdd3190840843a8917d4d959d00cc53~mv2.jpg/v1/fill/w_2500,h_1666,al_c/f97806_cfdd3190840843a8917d4d959d00cc53~mv2.jpg",
+          "alt": "Sushi Plus"
+        }
+      ]
+    },
+    {
+      "id": "yao-yao-restaurant",
+      "name": "Yao Yao Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85302,
+        "lng": -87.63297
+      },
+      "address": "230 W Cermak Rd, Chicago, IL 60616",
+      "description": "A Bib Gourmand–recognized eatery specializing in fiery Szechuan cuisine, including its signature Yao Yao pickled fish, spicy wontons, and a variety of flavorful traditional dishes.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/tRSVWzcJxsMDS3b-pLM6vw/o.jpg",
+      "website": "https://www.yaoyaochicago.com/",
+      "tags": [
+        "szechuan cuisine",
+        "bib gourmand",
+        "spicy Chinese food",
+        "pickled fish",
+        "yao yao pickled fish",
+        "wontons in chili oil"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/tRSVWzcJxsMDS3b-pLM6vw/o.jpg",
+          "alt": "Yao Yao Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://d15z892a5np5w4.cloudfront.net/production/yao-yao-chicago-il-3/images/b885751f0a8248e4e4/desktopbg-20211106110324.jpg",
+          "alt": "Yao Yao Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://www.chicagomag.com/wp-content/uploads/2023/03/bnr-Yao-Yao.jpg",
+          "alt": "Yao Yao Restaurant"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=RAGqcMWC-Xg",
+          "alt": "Yao Yao Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "emperors-choice",
+      "name": "Emperors Choice",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85175,
+        "lng": -87.63213
+      },
+      "address": "2238 S Wentworth Ave, Chicago, IL 60616",
+      "description": "An elegant restaurant offering a wide selection of authentic Cantonese dishes, fresh seafood, and classic dim sum in a refined dining atmosphere.",
+      "photo": "https://media.timeout.com/images/100919643/image.jpg",
+      "website": "https://www.emperorschoicerestaurant.com/",
+      "tags": [
+        "cantonese cuisine",
+        "dim sum",
+        "seafood",
+        "authentic chinese food",
+        "elegant dining",
+        "family-style dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://media.timeout.com/images/100919643/image.jpg",
+          "alt": "Emperors Choice"
+        },
+        {
+          "type": "image",
+          "src": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2d/09/25/7e/caption.jpg",
+          "alt": "Emperors Choice"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/zwjrX6JBw0-jZR8G_v6fOA/l.jpg",
+          "alt": "Emperors Choice"
+        }
+      ]
+    },
+    {
+      "id": "evergreen-restaurant",
+      "name": "Evergreen Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.84873,
+        "lng": -87.6317
+      },
+      "address": "2411 S Wentworth Ave, Chicago, IL 60616",
+      "description": "Standard Cantonese fare, with Sichuan & Hunan specialties, in a simple setting. Delivery available.",
+      "photo": "https://static.where-e.com/United_States/Evergreen-Restaurant_836969a6fd60c4f73a11956600b0082f.jpg",
+      "website": "https://www.evergreenrestaurantil.com/",
+      "tags": [
+        "cantonese cuisine",
+        "traditional chinese food",
+        "authentic chinese dishes",
+        "noodles",
+        "stir-fry",
+        "family-style dining",
+        "dim sum",
+        "seafood",
+        "asian cuisine",
+        "casual dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Evergreen-Restaurant_836969a6fd60c4f73a11956600b0082f.jpg",
+          "alt": "Evergreen Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/tcfzRnp5z9-zuU024ka2eA/348s.jpg",
+          "alt": "Evergreen Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "gao's-kabob-bbq",
+      "name": "Gao's Kabob BBQ",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85237,
+        "lng": -87.63331
+      },
+      "address": "232 W 22nd Pl, Chicago, IL 60616",
+      "description": "A lively restaurant specializing in authentic Chinese-style grilled skewers, spicy street food, and late-night dining in a fun, casual atmosphere.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/pb_pVKjNPWr7qZNWFcj8mQ/o.jpg",
+      "tags": [
+        "chinese bbq",
+        "grilled skewers",
+        "Chinese street food",
+        "spicy Chinese food",
+        "late-night dining",
+        "casual restaurant",
+        "Asian cuisine",
+        "barbecue skewers"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/pb_pVKjNPWr7qZNWFcj8mQ/o.jpg",
+          "alt": "Gao's Kabob BBQ"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/2-Y-sZfeiatfgDIBnt348A/l.jpg",
+          "alt": "Gao's Kabob BBQ"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Muxd0sqozCgSLFusurTHhQ/o.jpg",
+          "alt": "Gao's Kabob BBQ"
+        }
+      ]
+    },
+    {
+      "id": "go-4-food-restaurant",
+      "name": "Go 4 Food Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85113,
+        "lng": -87.6326
+      },
+      "address": "212 W 23rd St, Chicago, IL 60616",
+      "description": "A casual eatery offering a variety of affordable Chinese dishes, from classic stir-fries to noodle bowls, in a quick-service, family-friendly setting.",
+      "photo": "https://media-cdn.tripadvisor.com/media/photo-s/05/c0/a3/0a/go-4-food.jpg",
+      "website": "https://www.go4foodusa.com/",
+      "tags": [
+        "quick-service Chinese food",
+        "affordable Chinese cuisine",
+        "stir-fries",
+        "noodle bowls",
+        "family-friendly restaurant",
+        "takeout",
+        "asian cuisine",
+        "authentic Chinese dishes"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://media-cdn.tripadvisor.com/media/photo-s/05/c0/a3/0a/go-4-food.jpg",
+          "alt": "Go 4 Food Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/the-infatuation/image/upload/f_auto/q_auto/v1707496067/images/Go_4_Food_Interior_Christian_Luciano_Chicago_hyzdmp.jpg",
+          "alt": "Go 4 Food Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/YMLWRAxnS4b8uL9Qh45UhA/o.jpg",
+          "alt": "Go 4 Food Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "gourmet-food",
+      "name": "Gourmet Food",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8511820335664,
+        "lng": -87.6324848696704
+      },
+      "address": "210 W 23rd St, Chicago, IL 60616",
+      "description": "Unfussy, no-frills stop offering traditional Chinese classics from congee to pork dumplings.",
+      "photo": "https://static.where-e.com/United_States/Illinois_State/Gourmet-Food_1f7f4e7afe52470d0df47f2b0fb90c93.jpg",
+      "website": "https://www.gourmetfoodil.com/",
+      "tags": [
+        "chinese cuisine",
+        "casual dining",
+        "stir-fries",
+        "noodles",
+        "rice dishes",
+        "family-friendly restaurant",
+        "takeout",
+        "quick-service dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Illinois_State/Gourmet-Food_1f7f4e7afe52470d0df47f2b0fb90c93.jpg",
+          "alt": "Gourmet Food"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/P2TYcAzlMLPC0eoaIKh8Mw/o.jpg",
+          "alt": "Gourmet Food"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/xyKA_c8tyMmePMIstiERLA/o.jpg",
+          "alt": "Gourmet Food"
+        }
+      ]
+    },
+    {
+      "id": "happy-lamb-hot-pot",
+      "name": "Happy Lamb Hot Pot",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8506,
+        "lng": -87.63208
+      },
+      "address": "2312 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A vibrant restaurant specializing in customizable hot pot meals with fresh ingredients, flavorful broths, and a lively, communal dining experience.",
+      "photo": "https://happy-lamb-hot-pot.weeblyte.com/wp-content/uploads/2023/10/Happy-Lamb-Hot-Pot-Chicago-58.jpg",
+      "website": "https://happylambhotpot.com/",
+      "tags": [
+        "hot pot",
+        "Chinese hot pot",
+        "customizable hot pot",
+        "fresh ingredients",
+        "family-style dining",
+        "authentic Chinese food"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://happy-lamb-hot-pot.weeblyte.com/wp-content/uploads/2023/10/Happy-Lamb-Hot-Pot-Chicago-58.jpg",
+          "alt": "Happy Lamb Hot Pot"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=fUAXoVBcRj8",
+          "alt": "Happy Lamb Hot Pot"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/rTiZQXttN5eNI62yeyRxrg/o.jpg",
+          "alt": "Happy Lamb Hot Pot"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/AiCz2m_BAqUe8Es_ApgOhw/o.jpg",
+          "alt": "Happy Lamb Hot Pot"
+        }
+      ]
+    },
+    {
+      "id": "legend-dumpling-&-bao",
+      "name": "Legend Dumpling & Bao",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85167,
+        "lng": -87.63183
+      },
+      "address": "2243 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A popular eatery specializing in handmade dumplings, fluffy bao, and authentic Northern Chinese comfort food in a casual, welcoming setting.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/YK9hsHD7hjqf0FTar4Abdg/l.jpg",
+      "website": "https://www.legenddumplingbao.com/",
+      "tags": [
+        "dumplings",
+        "bao",
+        "Northern Chinese cuisine",
+        "handmade dumplings",
+        "authentic Chinese dishes",
+        "family-friendly restaurant"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/YK9hsHD7hjqf0FTar4Abdg/l.jpg",
+          "alt": "Legend Dumpling & Bao"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/T52NlT3LolhrBpdziIJzhQ/o.jpg",
+          "alt": "Legend Dumpling & Bao"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/cuPeglJBHlQevd8I9FEJSQ/o.jpg",
+          "alt": "Legend Dumpling & Bao"
+        }
+      ]
+    },
+    {
+      "id": "legend-tasty-house",
+      "name": "Legend Tasty House",
+      "categories": [
+        "dessert"
+      ],
+      "position": {
+        "lat": 41.85161,
+        "lng": -87.63225
+      },
+      "address": "2242 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A rolled ice cream shop bringing the vibrant flavors and tastes of Thailand to the city for a fun and memorable dessert experience.",
+      "photo": "https://static.where-e.com/United_States/Legend-Tasty-House_5fffa55f2acea47d094ffa7bdb237e44.jpg",
+      "website": "https://www.legendtastyhouse.com/",
+      "tags": [
+        "rolled ice cream",
+        "thai desserts",
+        "thai flavors",
+        "ice cream shop",
+        "asian desserts",
+        "sweet treats",
+        "fun desserts",
+        "dessert café"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Legend-Tasty-House_5fffa55f2acea47d094ffa7bdb237e44.jpg",
+          "alt": "Legend Tasty House"
+        },
+        {
+          "type": "image",
+          "src": "https://d15z892a5np5w4.cloudfront.net/production/legend-tasty-house-chicago-il-4/images/b885c48ecd9a1de4ef/slide2-20200619084024.jpg",
+          "alt": "Legend Tasty House"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/srHTU0s8TwYTOxaj7zHBUA/o.jpg",
+          "alt": "Legend Tasty House"
+        }
+      ]
+    },
+    {
+      "id": "liuyishou-hotpot",
+      "name": "Liuyishou Hotpot",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85248,
+        "lng": -87.63187
+      },
+      "address": "2215 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A renowned Chongqing-style hot pot restaurant offering premium meats, fresh ingredients, and flavorful broths for an authentic and interactive Sichuan dining experience.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/JNR9iYrDxpexDuDf08wsew/o.jpg",
+      "website": "https://www.liuyishouna.com/chicago",
+      "tags": [
+        "chongqing hot pot",
+        "sichuan cuisine",
+        "spicy broth",
+        "chinese hot pot",
+        "premium meats",
+        "mala hot pot",
+        "all-you-can-eat hot pot"
+      ],
+      "gallery": [
+        {
+          "type": "iamge",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/JNR9iYrDxpexDuDf08wsew/o.jpg",
+          "alt": "Liuyishou Hotpot"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/s6ke3EKrRnge4RlyHP6zvA/o.jpg",
+          "alt": "Liuyishou Hotpot"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/_KCxligYQ_As-wxxfS42bw/o.jpg",
+          "alt": "Liuyishou Hotpot"
+        }
+      ]
+    },
+    {
+      "id": "original-triple-crown-restaurant",
+      "name": "Original triple Crown Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8520942245241,
+        "lng": -87.6325825365034
+      },
+      "address": "211 W 22nd Pl, Chicago, IL 60616",
+      "description": "Chinese joint with traditional decor & late hours offering a wide selection, including dim sum.",
+      "photo": "https://static.where-e.com/United_States/Original-Triple-Crown-Restaurant_2fb8f5e04fbfb98e8c04bcab37207b00.jpg",
+      "website": "https://www.originaltriplecrown.com/",
+      "tags": [
+        "cantonese cuisine",
+        "hong kong-style dining",
+        "dim sum",
+        "late-night eats",
+        "seafood restaurant",
+        "traditional Chinese food",
+        "family-style dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Original-Triple-Crown-Restaurant_2fb8f5e04fbfb98e8c04bcab37207b00.jpg",
+          "alt": "Original triple Crown Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/ptimj739CMv5QT8UpfNmEg/o.jpg",
+          "alt": "Original triple Crown Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/ZKKV6DT8B2evNVtF7_1xFA/o.jpg",
+          "alt": "Original triple Crown Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "shinhwa-korean-steakhouse",
+      "name": "Shinhwa Korean Steakhouse",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.84891,
+        "lng": -87.63164
+      },
+      "address": "2407 S Wentworth Ave, Chicago, IL 60616",
+      "description": "All-you-can-eat grill featuring Korean menu items like hot pots, beef and pork and grilled meats.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/e-VgstdfZ19nUV3L4p7fFA/o.jpg",
+      "website": "https://shinhwakoreansteakhouse.com/",
+      "tags": [
+        "korean bbq",
+        "premium meats",
+        "tableside grilling",
+        "korean cuisine",
+        "steakhouse",
+        "korean flavors",
+        "asian fusion",
+        "hot pot"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/e-VgstdfZ19nUV3L4p7fFA/o.jpg",
+          "alt": "Shinhwa Korean Steakhouse"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/9g_EO1kihdh9-25jKOfFUA/o.jpg",
+          "alt": "Shinhwa Korean Steakhouse"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/JdbLWdNNw3ZtnvJ5uB5d5g/o.jpg",
+          "alt": "Shinhwa Korean Steakhouse"
+        }
+      ]
+    },
+    {
+      "id": "slurp-slurp-noodles",
+      "name": "Slurp Slurp Noodles",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85156,
+        "lng": -87.63174
+      },
+      "address": "2247 S Wentworth Ave, Chicago, IL 60616",
+      "description": "Unassuming eatery turning out a big variety of Chinese noodle bowls & soups in relaxed surrounds.",
+      "photo": "https://live.staticflickr.com/65535/48301195916_0fbff8810f_b.jpg",
+      "website": "https://www.slurpslurpnoodles.com/",
+      "tags": [
+        "hand-pulled noodles",
+        "lanzhou noodles",
+        "chinese noodles",
+        "beef noodle soup",
+        "northern chinese cuisine",
+        "authentic noodles",
+        "noodle house",
+        "fresh noodles",
+        "handmade noodles"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://live.staticflickr.com/65535/48301195916_0fbff8810f_b.jpg",
+          "alt": "Slurp Slurp Noodles"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/9l6kzL0_f1Dh0DsAL1D_cA/o.jpg",
+          "alt": "Slurp Slurp Noodles"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/C2vuQ_v_h4OaeRpSFZF8vw/o.jpg",
+          "alt": "Slurp Slurp Noodles"
+        }
+      ]
+    },
+    {
+      "id": "tai-ho-yee-food",
+      "name": "Tai Ho Yee Food",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8484,
+        "lng": -87.63206
+      },
+      "address": "2422 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A casual eatery specializing in quality Cantonese barbecue, including tender roast duck and other classic BBQ dishes.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/UH1D864qNEExq7O8AlYNtQ/o.jpg",
+      "tags": [
+        "cantonese bbq",
+        "roast duck",
+        "chinese barbecue",
+        "BBQ meats"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/UH1D864qNEExq7O8AlYNtQ/o.jpg",
+          "alt": "Tai Ho Yee Food"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/YjhyOWHaXx3z3ZuZ_pnwVg/o.jpg",
+          "alt": "Tai Ho Yee Food"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/eMw0f3dYHkhVlJPVs-Kc-g/o.jpg",
+          "alt": "Tai Ho Yee Food"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/RrnlnMOZMIG8CvspgYt38w/o.jpg",
+          "alt": "Tai Ho Yee Food"
+        }
+      ]
+    },
+    {
+      "id": "three-happiness-restaurant",
+      "name": "Three Happiness Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85265,
+        "lng": -87.63245
+      },
+      "address": "209 W Cermak Rd, Chicago, IL 60616",
+      "description": "A welcoming Cantonese dim sum eatery offering a wide variety of traditional and modern dishes, including vegetarian options, with dine-in, takeout, delivery, and catering services.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/c_UlDy5Hz7SkZ4NE1dpyuQ/348s.jpg",
+      "website": "https://three-happiness.restaurants-world.com/",
+      "tags": [
+        "cantonese cuisine",
+        "dim sum",
+        "traditional Chinese dishes",
+        "vegetarian options",
+        "family-friendly dining",
+        "takeout",
+        "delivery"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/c_UlDy5Hz7SkZ4NE1dpyuQ/348s.jpg",
+          "alt": "Three Happiness Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/lMVAIVZYAgU5aexBmnStAw/o.jpg",
+          "alt": "Three Happiness Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/lKXGNp94jbPJIDmuvDUP9Q/o.jpg",
+          "alt": "Three Happiness Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "triple-crown-restaurant",
+      "name": "Triple Crown Restaurant",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85246,
+        "lng": -87.63186
+      },
+      "address": "2217 S Wentworth Ave, Chicago, IL 60616",
+      "description": "Large, casual restaurant serving dim sum & Cantonese classics until the wee hours.",
+      "photo": "https://res.cloudinary.com/the-infatuation/image/upload/v1740594833/images/TripleCrown_Exterior_KimKovacik_Chicago_03_xgswfq.jpg",
+      "website": "https://www.triplecrownchicago.com/",
+      "tags": [
+        "cantonese cuisine",
+        "hong kong-style dining",
+        "dim sum",
+        "seafood",
+        "family-style dining",
+        "authentic cantonese dishes",
+        "late-night dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/the-infatuation/image/upload/v1740594833/images/TripleCrown_Exterior_KimKovacik_Chicago_03_xgswfq.jpg",
+          "alt": "Triple Crown Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/whG2dcsqQ7-VIbvscnnniA/o.jpg",
+          "alt": "Triple Crown Restaurant"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/tB0zMtHheWm28p7JouI__g/o.jpg",
+          "alt": "Triple Crown Restaurant"
+        }
+      ]
+    },
+    {
+      "id": "wentworth-seafood-house",
+      "name": "Wentworth Seafood House",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85198,
+        "lng": -87.63186
+      },
+      "address": "2229 S Wentworth Ave, Chicago, IL 60616",
+      "description": "Seafood-focused Cantonese dishes along with bubble tea served in an easygoing atmosphere.",
+      "photo": "https://imgcache.dealmoon.com/fsvrugccache.dealmoon.com/ugc/f7d/215/1ff/e5ade29f5848a6d1e7955b4.jpg_0_0_40_ce93.jpg",
+      "website": "https://www.wentworthseafood.com/",
+      "tags": [
+        "cantonese cuisine",
+        "seafood restaurant",
+        "dim sum",
+        "chinese seafood",
+        "authentic Chinese dishes",
+        "family-style dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://imgcache.dealmoon.com/fsvrugccache.dealmoon.com/ugc/f7d/215/1ff/e5ade29f5848a6d1e7955b4.jpg_0_0_40_ce93.jpg",
+          "alt": "Wentworth Seafood House"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/wbD0GeK3EQwVCTrokHGroQ/o.jpg",
+          "alt": "Wentworth Seafood House"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/xV1LR0wmSgpkSpar0eS_Ag/o.jpg",
+          "alt": "Wentworth Seafood House"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/HV-rwY5yt21j8vPsl2pMeQ/o.jpg",
+          "alt": "Wentworth Seafood House"
+        }
+      ]
+    },
+    {
+      "id": "shoo-loong-kan-hotpot",
+      "name": "Shoo Loong Kan Hotpot",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8526804846437,
+        "lng": -87.631710568695
+      },
+      "address": "2201 S Wentworth Ave 1st Fl, Chicago, IL 60616",
+      "description": "A popular restaurant specializing in authentic Sichuan hot pot and a wide variety of traditional Chinese dishes.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/EplbMAJwSZqyD3bYATWxfQ/o.jpg",
+      "website": "https://hotpotchicago.com/",
+      "tags": [
+        "sichuan hot pot",
+        "chinese hot pot",
+        "authentic Chinese cuisine",
+        "traditional Chinese dishes",
+        "spicy Chinese food",
+        "customizable hot pot",
+        "family-style dining"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/EplbMAJwSZqyD3bYATWxfQ/o.jpg",
+          "alt": "Shoo Loong Kan Hotpot"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/N-00swqvWPB9jjcgNueosg/o.jpg",
+          "alt": "Shoo Loong Kan Hotpot"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/EgezV5qOIadFGXEZbZXBxw/o.jpg",
+          "alt": "Shoo Loong Kan Hotpot"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/LHV0qtqYhxc18QoKmX4LfQ/o.jpg",
+          "alt": "Shoo Loong Kan Hotpot"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=pUpS_XGXBA0",
+          "alt": "Shoo Loong Kan Hotpot"
+        }
+      ]
+    },
+    {
+      "id": "xi'an-cuisine",
+      "name": "Xi'an Cuisine",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85267,
+        "lng": -87.63307
+      },
+      "address": "225 W Cermak Rd, Chicago, IL 60616",
+      "description": "A vibrant restaurant specializing in authentic Xi’an street foods, flavorful Szechuan dishes, and a diverse selection of Chinese American favorites",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/gSuhocACkTUhibzW-FZozA/o.jpg",
+      "website": "https://xiancuisinechicago.com/",
+      "tags": [
+        "xi’an street food",
+        "szechuan dishes",
+        "authentic Chinese food",
+        "northern chinese cuisine",
+        "hand-pulled noodles",
+        "biang biang noodles",
+        "shewer meats",
+        "flatebread"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/gSuhocACkTUhibzW-FZozA/o.jpg",
+          "alt": "Xi'an Cuisine"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/a3Seg2HbdaLjPbCbvGsV4Q/o.jpg",
+          "alt": "Xi'an Cuisine"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/YkxJHdGYxoX0v3qsDtsrKg/o.jpg",
+          "alt": "Xi'an Cuisine"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/-Bkb1JyPhcIBH_eiE1-P3A/o.jpg",
+          "alt": "Xi'an Cuisine"
+        }
+      ]
+    },
+    {
+      "id": "jiang-niu-bbq",
+      "name": "Jiang Niu BBQ",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.85109,
+        "lng": -87.63885
+      },
+      "address": "2300 S Archer Ave, Chicago, IL 60616",
+      "description": "A unique Korean Chinese fusion  BBQ experience, combining sweet, spicy, and savory flavors with tableside grilling for a fun and flavorful dining adventure.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/-pRhuVH4v_OBpPMPpij3WQ/o.jpg",
+      "website": "https://www.jiangniubbq.com/",
+      "tags": [
+        "dongbei bbq",
+        "chinese bbq",
+        "fusion cuisine",
+        "tableside grilling",
+        "asian barbecue",
+        "sweet and spicy flavors",
+        "garlic and chili",
+        "self-grill restaurant",
+        "Chinese fusion",
+        ""
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/-pRhuVH4v_OBpPMPpij3WQ/o.jpg",
+          "alt": "Jiang Niu BBQ"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=DcmWNPD8zpE",
+          "alt": "Jiang Niu BBQ"
+        },
+        {
+          "type": "image",
+          "src": "https://static.wixstatic.com/media/0d0ac3_67cfb9a86ca54b49b620e11cfd7f9fb7~mv2.jpg/v1/fill/w_1163,h_654,al_c/0d0ac3_67cfb9a86ca54b49b620e11cfd7f9fb7~mv2.jpg",
+          "alt": "Jiang Niu BBQ"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/tZdTA1pVDK4J62HQcSv6nA/o.jpg",
+          "alt": "Jiang Niu BBQ"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/bJMYs6JvXg8LISL2F9Avqg/o.jpg",
+          "alt": "Jiang Niu BBQ"
+        }
+      ]
+    },
+    {
+      "id": "qiao-lin-hotpot",
+      "name": "Qiao Lin Hotpot",
+      "categories": [
+        "restaurants"
+      ],
+      "position": {
+        "lat": 41.8541042283885,
+        "lng": -87.6416057614993
+      },
+      "address": "2105 S Jefferson St Suite A, Chicago, IL 60616",
+      "description": "Qiao Lin Hotpot in Chicago’s Chinatown offers an authentic Chongqing hot pot experience, delivering bold, spicy flavors and a memorable dining adventure for heat-loving food enthusiasts.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/vryxqy68cXiJkIhBcwYeTQ/o.jpg",
+      "website": "https://www.qiaolinhotpot.com/",
+      "tags": [
+        "chongqing hot pot",
+        "sichuan cuisine",
+        "spicy Chinese food",
+        "authentic hot pot",
+        "bold flavors"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/vryxqy68cXiJkIhBcwYeTQ/o.jpg",
+          "alt": "Qiao Lin Hotpot"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/mN3fGzmy2XOAoC-URHdExw/o.jpg",
+          "alt": "Qiao Lin Hotpot"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/_uXrhz_coSXBKnU2uzq8zQ/o.jpg",
+          "alt": "Qiao Lin Hotpot"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/aitrgp7HVOWT5wez2sBWKA/o.jpg",
+          "alt": "Qiao Lin Hotpot"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=2tVMtiQYPd8",
+          "alt": "Qiao Lin Hotpot"
+        }
+      ]
+    },
+    {
+      "id": "tous-les-jours",
+      "name": "Tous Les Jours",
+      "categories": [
+        "dessert"
+      ],
+      "position": {
+        "lat": 41.85379,
+        "lng": -87.63395
+      },
+      "address": "2144 S Archer Ave unit a, Chicago, IL 60616",
+      "description": "Relaxed shop for Asian-French baked goods, including cakes, breads and croissants.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/7TIVzXMr7-sa9JYO4hbi2A/o.jpg",
+      "website": "https://tljus.com/stores/chicago-2144-s-archer-ave",
+      "tags": [
+        "bakery",
+        "french-asian bakery",
+        "korean bakery",
+        "cakes",
+        "pastries",
+        "bread",
+        "desserts",
+        "sweet treats",
+        "asian desserts",
+        "coffee and pastries",
+        "fresh baked goods",
+        "café",
+        "Asian bakery",
+        "dessert shop"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/7TIVzXMr7-sa9JYO4hbi2A/o.jpg",
+          "alt": "Tous Les Jours"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Z_Ol2IqNIaIDptMBRIelIA/o.jpg",
+          "alt": "Tous Les Jours"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/BiznbLcIppgT426EUHbNPQ/o.jpg",
+          "alt": "Tous Les Jours"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/AX3H6PvB0TJCfGx172Fw2g/o.jpg",
+          "alt": "Tous Les Jours"
+        }
+      ]
+    },
+    {
+      "id": "paris-baguette",
+      "name": "Paris Baguette",
+      "categories": [
+        "dessert"
+      ],
+      "position": {
+        "lat": 41.85183,
+        "lng": -87.63186
+      },
+      "address": "2239 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A modern bakery and café offering a variety of freshly baked breads, pastries, cakes, and beverages inspired by French and Korean flavors.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/vlSeq5QoWmM37t5AkN62Gg/o.jpg",
+      "website": "https://parisbaguette.com/locations/il/chicago/2239-s-wentworth-avenue/",
+      "tags": [
+        "bakery",
+        "café",
+        "french bakery",
+        "korean bakery",
+        "breads",
+        "pastries",
+        "cakes",
+        "desserts",
+        "sweet treats",
+        "coffee",
+        "beverages",
+        "fresh baked goods",
+        "asian-inspired bakery",
+        "dessert shop"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/vlSeq5QoWmM37t5AkN62Gg/o.jpg",
+          "alt": "Paris Baguette"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/KyCEKEE54rgAM2XUSr59_Q/o.jpg",
+          "alt": "Paris Baguette"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/pl1fgJ0yW6758qNYgWIveQ/o.jpg",
+          "alt": "Paris Baguette"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/q57pfD5tUuFADcIdz8p3VA/o.jpg",
+          "alt": "Paris Baguette"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/shorts/Hro_n-Cb1FY",
+          "alt": "Paris Baguette"
+        }
+      ]
+    },
+    {
+      "id": "no.1-salon",
+      "name": "No.1 Salon",
+      "categories": [
+        "salon"
+      ],
+      "position": {
+        "lat": 41.8545267851843,
+        "lng": -87.6328989597079
+      },
+      "address": "2113 S China Pl a, Chicago, IL 60616",
+      "description": "A modern beauty salon offering haircuts, styling, coloring, and professional hair care services in a welcoming and contemporary setting.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/Zx7WFruSP20g83EnDEGiJA/348s.jpg",
+      "website": "https://www.no1salonchicago.com/",
+      "tags": [
+        "hair salon",
+        "beauty salon",
+        "haircuts",
+        "hairstyling",
+        "hair coloring",
+        "professional hair care",
+        "modern salon",
+        "hair treatments",
+        "hair services",
+        "hair design"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Zx7WFruSP20g83EnDEGiJA/348s.jpg",
+          "alt": "No.1 Salon"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/cq0d4cX9umIyDvNXn6R98A/o.jpg",
+          "alt": "No.1 Salon"
+        }
+      ]
+    },
+    {
+      "id": "headquater-salon",
+      "name": "Headquater Salon",
+      "categories": [
+        "salon"
+      ],
+      "position": {
+        "lat": 41.85399,
+        "lng": -87.63417
+      },
+      "address": "2145 S China Pl, Chicago, IL 60616",
+      "description": "A trendy full-service salon offering expert haircuts, coloring, and styling in a modern and relaxing atmosphere.",
+      "photo": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/482023320_1105940094883146_4702132732992175756_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Zv83S5gPhxcQ7kNvwEmLnOt&_nc_oc=AdnOthjKLxqwidbguZAg3AM8aQWtwRno_fpmyfxoKBNlWEBMq_uZFHAVnE9aOZ6O99N5eYTFBMExhvjkjYAsgvMh&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=cGeo5kp3CIzMlf_3xPKwoA&oh=00_AfdCsCd9hNLR3q_FO36ZvW2tikt8lCh7OHm9ACsbjobOGw&oe=68FED4F4",
+      "website": "https://www.headquarterchicago.net/",
+      "tags": [
+        "hair salon",
+        "beauty salon",
+        "haircuts",
+        "hairstyling",
+        "hair coloring",
+        "professional hair care",
+        "hair treatments",
+        "personal grooming"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/482023320_1105940094883146_4702132732992175756_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Zv83S5gPhxcQ7kNvwEmLnOt&_nc_oc=AdnOthjKLxqwidbguZAg3AM8aQWtwRno_fpmyfxoKBNlWEBMq_uZFHAVnE9aOZ6O99N5eYTFBMExhvjkjYAsgvMh&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=cGeo5kp3CIzMlf_3xPKwoA&oh=00_AfdCsCd9hNLR3q_FO36ZvW2tikt8lCh7OHm9ACsbjobOGw&oe=68FED4F4",
+          "alt": "Headquater Salon"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/kywbGipcv-Z5dJQMBERxpA/l.jpg",
+          "alt": "Headquater Salon"
+        }
+      ]
+    },
+    {
+      "id": "uwu-nails",
+      "name": "UwU Nails",
+      "categories": [
+        "beauty"
+      ],
+      "position": {
+        "lat": 41.85403,
+        "lng": -87.63406
+      },
+      "address": "Second Floor, 2143 S China Pl Unit B 2nd floor, Chicago, IL 60616",
+      "description": "A stylish nail salon offering professional manicures, pedicures, and creative nail art in a cozy and relaxing environment.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/b_PrdjfZbXnZK4XqxCoV-g/348s.jpg",
+      "website": "https://uwunails.com/",
+      "tags": [
+        "nail salon",
+        "manicure",
+        "pedicure",
+        "nail art",
+        "gel nails",
+        "acrylic nails",
+        "nail design",
+        "beauty salon",
+        "self-care",
+        "spa services",
+        "relaxing atmosphere",
+        "professional nail care",
+        "trendy nails"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/b_PrdjfZbXnZK4XqxCoV-g/348s.jpg",
+          "alt": "UwU Nails"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/PLWkrPVzCn7SqgJUMcU1Zw/o.jpg",
+          "alt": "UwU Nails"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Mzi2HKhV__uVtB86TNvItw/o.jpg",
+          "alt": "UwU Nails"
+        }
+      ]
+    },
+    {
+      "id": "volar-salon",
+      "name": "Volar Salon",
+      "categories": [
+        "salon"
+      ],
+      "position": {
+        "lat": 41.85124,
+        "lng": -87.63185
+      },
+      "address": "2257 S Wentworth Ave, Chicago, IL 60616",
+      "description": "A contemporary salon offering expert haircuts, coloring, and styling services with a focus on personalized beauty and modern trends.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/bOfjsus0FkGVTKOA48d69Q/o.jpg",
+      "website": "https://www.volarsalon.com/",
+      "tags": [
+        "hair salon",
+        "beauty salon",
+        "haircuts",
+        "hairstyling",
+        "hair coloring",
+        "professional hair care",
+        "hair treatments",
+        "personalized styling",
+        "trendy hairstyles",
+        "full-service salon",
+        "hair design"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/bOfjsus0FkGVTKOA48d69Q/o.jpg",
+          "alt": "Volar Salon"
+        },
+        {
+          "type": "image",
+          "src": "https://images.squarespace-cdn.com/content/v1/636b1cbed3ae5a555a90132d/53d9d2b1-c057-4670-9dd9-a47cd03d2ea5/shop1-bg.jpg",
+          "alt": "Volar Salon"
+        }
+      ]
+    },
+    {
+      "id": "88-marketplace",
+      "name": "88 Marketplace",
+      "categories": [
+        "super market"
+      ],
+      "position": {
+        "lat": 41.85403834135955,
+        "lng": -87.6416136606583
+      },
+      "address": "2105 S Jefferson St Floor 2, Chicago, IL 60616",
+      "description": "A vibrant supermarket specializing in Asian foods, fresh produce, and snacks, featuring a food court with dim sum and other popular Asian dishes, along with a variety of restaurant and gift stores.",
+      "photo": "https://res.cloudinary.com/the-infatuation/image/upload/f_auto/q_auto/v1665161009/images/KimKovacik_Chi_88Marketplace_Exterior_01_1_ggoiza.jpg",
+      "website": "https://88marketplace.com/",
+      "tags": [
+        "asian supermarket",
+        "asian foods",
+        "fresh produce",
+        "snacks",
+        "food court",
+        "dim sum",
+        "hot pot",
+        "grocery store",
+        "gift shops",
+        "Chinatown shopping"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/the-infatuation/image/upload/f_auto/q_auto/v1665161009/images/KimKovacik_Chi_88Marketplace_Exterior_01_1_ggoiza.jpg",
+          "alt": "88 Marketplace"
+        },
+        {
+          "type": "image",
+          "src": "https://88marketplace.com/wp-content/uploads/2023/04/4.jpg",
+          "alt": "88 Marketplace"
+        },
+        {
+          "type": "image",
+          "src": "https://res.cloudinary.com/the-infatuation/image/upload/v1688057106/images/KimKovacik_Chi_88Marketplace_Interior_03_koqvws.jpg",
+          "alt": "88 Marketplace"
+        }
+      ]
+    },
+    {
+      "id": "park-to-shop",
+      "name": "Park to Shop",
+      "categories": [
+        "super market"
+      ],
+      "position": {
+        "lat": 41.8487454163283,
+        "lng": -87.6409791087551
+      },
+      "address": "520 W 24th Pl, Chicago, IL 60616",
+      "description": "Large Asian grocery offering fresh-cut meats as well as produce & imported frozen & dry goods.",
+      "photo": "https://static.where-e.com/United_States/Illinois/Cook_County/Park-To-Shop-Supermarket-Hong-Kong-Market_85f158ae5efa2fdfbb72c2280c83d886.jpg",
+      "website": "https://ptsmall.world/",
+      "tags": [
+        "asian supermarket",
+        "fresh produce",
+        "snacks",
+        "chinese ingredients",
+        "asian foods",
+        "grocery store",
+        "seafood",
+        "meat",
+        "chinatown shopping"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://static.where-e.com/United_States/Illinois/Cook_County/Park-To-Shop-Supermarket-Hong-Kong-Market_85f158ae5efa2fdfbb72c2280c83d886.jpg",
+          "alt": "Park to Shop"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/bglgskeVcuSsGTNmRNLrdA/o.jpg",
+          "alt": "Park to Shop"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/c-GNi5mGQLn9KWKX5i4EXw/o.jpg",
+          "alt": "Park to Shop"
+        }
+      ]
+    },
+    {
+      "id": "ichiban-candy-&-snacks",
+      "name": "Ichiban Candy & Snacks",
+      "categories": [
+        "stores"
+      ],
+      "position": {
+        "lat": 41.85460,
+        "lng": -87.63302
+      },
+      "address": "2117A S China Pl, Chicago, IL 60616",
+      "description": "A specialty shop offering a wide variety of Japanese and Asian candies, snacks, and treats for all ages to enjoy.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/HC0Yz2mG4WsTrwb1jRSDiw/o.jpg",
+      "website": "https://ichibancandy.com/",
+      "tags": [
+        "Japanese candy",
+        "Asian snacks",
+        "Asian sweets",
+        "Japanese treats",
+        "candy shop",
+        "snack shop",
+        "international snacks",
+        "novelty candies",
+        "sweet treats",
+        "imported snacks"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/HC0Yz2mG4WsTrwb1jRSDiw/o.jpg",
+          "alt": "Ichiban Candy & Snacks"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/GO-6X9zbrVBFhOG-rJH0ZQ/o.jpg",
+          "alt": "Ichiban Candy & Snacks"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/2NUFqFLOAa5LXl6VcYCimw/o.jpg",
+          "alt": "Ichiban Candy & Snacks"
+        }
+      ]
+    },
+    {
+      "id": "rong-city-houseware-&-restaurant-supply",
+      "name": "Rong City Houseware & Restaurant Supply",
+      "categories": [
+        "stores"
+      ],
+      "position": {
+        "lat": 41.8544558318818,
+        "lng": -87.632728002987
+      },
+      "address": "2120 S Archer Ave, Chicago, IL 60616",
+      "description": "A comprehensive store offering kitchenware, cookware, and restaurant supplies for both home cooks and professional chefs.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/YoO_mrsIcZaTBx8d5d-BSQ/o.jpg",
+      "website": "http://www.rongcityusa.com/",
+      "tags": [
+        "kitchenware",
+        "cookware",
+        "restaurant supplies",
+        "cooking tools",
+        "professional chef supplies",
+        "kitchen essentials",
+        "Asian cookware",
+        "culinary equipment",
+        "cookware store",
+        "cooking utensils"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/YoO_mrsIcZaTBx8d5d-BSQ/o.jpg",
+          "alt": "Rong City Houseware & Restaurant Supply"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/zeLdqowiATrE9_1gVOkFZw/o.jpg",
+          "alt": "Rong City Houseware & Restaurant Supply"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/KncadtNxGF5_rukjt0zf2w/o.jpg",
+          "alt": "Rong City Houseware & Restaurant Supply"
+        }
+      ]
+    },
+    {
+      "id": "bg-gift-shop-souvenir-&-anime",
+      "name": "BG Gift Shop Souvenir & Anime",
+      "categories": [
+        "stores"
+      ],
+      "position": {
+        "lat": 41.85387,
+        "lng": -87.63452
+      },
+      "address": "2153a S China Pl, Chicago, IL 60616",
+      "description": "A specialty store offering a variety of unique souvenirs, anime merchandise, and collectible items for fans and visitors alike.",
+      "photo": "https://img-us.didaudo.net/us-locations/US/000/011/11233/2bg-gift-shop-souvenir-anime0.jpg?output=webp&fit=cover&w=800&h=600",
+      "tags": [
+        "souvenir shop",
+        "anime merchandise",
+        "collectibles",
+        "gifts",
+        "asian souvenirs",
+        "toys",
+        "figurines",
+        "pop culture items",
+        "novelty gifts"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://img-us.didaudo.net/us-locations/US/000/011/11233/2bg-gift-shop-souvenir-anime0.jpg?output=webp&fit=cover&w=800&h=600",
+          "alt": "BG Gift Shop Souvenir & Anime"
+        }
+      ]
+    },
+    {
+      "id": "zhm-express",
+      "name": "ZHM Express",
+      "categories": [
+        "stores"
+      ],
+      "position": {
+        "lat": 41.85376,
+        "lng": -87.63398
+      },
+      "address": "2146a S Archer Ave, Chicago, IL 60616",
+      "description": "A convenient shop offering international shipping, package delivery, and logistics services for customers sending goods between the U.S. and Asia.",
+      "website": "https://dongfangexpress.com/",
+      "tags": [
+        "shipping service",
+        "international shipping",
+        "package delivery",
+        "logistics",
+        "express delivery",
+        "cargo service",
+        "freight service",
+        "mail service",
+        "courier",
+        "parcel delivery"
+      ]
+    },
+    {
+      "id": "sakura-karaoke-bar",
+      "name": "Sakura Karaoke Bar",
+      "categories": [
+        "entertainment"
+      ],
+      "position": {
+        "lat": 41.85307,
+        "lng": -87.63312
+      },
+      "address": "234 W Cermak Rd, Chicago, IL 60616",
+      "description": "A lively entertainment spot offering private karaoke rooms, drinks, and snacks for friends to sing, relax, and have fun together.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/bzn16aajrUDBu_7P43rzLw/o.jpg",
+      "website": "https://www.sakurakaraokebar.com/",
+      "tags": [
+        "karaoke",
+        "bar",
+        "nightlife",
+        "entertainment",
+        "private rooms",
+        "singing",
+        "drinks",
+        "cocktails",
+        "party venue"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/bzn16aajrUDBu_7P43rzLw/o.jpg",
+          "alt": "Sakura Karaoke Bar"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/DhXGtVypkHRsqBfXOOfnUg/o.jpg",
+          "alt": "Sakura Karaoke Bar"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/KbN9EfuqlTkfqXqzktR3ug/o.jpg",
+          "alt": "Sakura Karaoke Bar"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/givQ7zeX8UHw16I_MV0nnw/o.jpg",
+          "alt": "Sakura Karaoke Bar"
+        }
+      ]
+    },
+    {
+      "id": "no.18-karaoke-bar",
+      "name": "No.18 Karaoke Bar",
+      "categories": [
+        "entertainment"
+      ],
+      "position": {
+        "lat": 41.85259,
+        "lng": -87.63186
+      },
+      "address": "2201 S Wentworth Ave #2FL, Chicago, IL 60616",
+      "description": "A vibrant nightlife venue featuring private karaoke rooms, a full bar, and a lively atmosphere for friends and groups to enjoy singing and socializing.",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/MGWnXpCwld6Zws_F-YN0yg/o.jpg",
+      "website": "https://www.no18karaoke.com/",
+      "tags": [
+        "karaoke",
+        "bar",
+        "nightlife",
+        "private rooms",
+        "singing",
+        "drinks",
+        "cocktails",
+        "group entertainment",
+        "asian nightlife",
+        "party venue",
+        "music lounge",
+        "social spot",
+        "fun with friends",
+        "late-night entertainment"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/MGWnXpCwld6Zws_F-YN0yg/o.jpg",
+          "alt": "No.18 Karaoke Bar"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/hdVbMXzReFexkDsr3XGsOA/o.jpg",
+          "alt": "No.18 Karaoke Bar"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/x1OWPpc9DMoni5QXAyo8UQ/o.jpg",
+          "alt": "No.18 Karaoke Bar"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/orhESwNtXNPVkSqWNwDrwg/o.jpg",
+          "alt": "No.18 Karaoke Bar"
+        },
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/47UNVZhrY-rBwVx8b1k5sw/o.jpg",
+          "alt": "No.18 Karaoke Bar"
+        }
+      ]
+    },
+    {
+      "id": "heritage-museum-of-asian-art",
+      "name": "Heritage Museum of Asian Art",
+      "categories": [
+        "recommended",
+        "attractions"
+      ],
+      "position": {
+        "lat": 41.83065425086,
+        "lng": -87.6514084318237
+      },
+      "address": "3500 S Morgan St 3rd Fl, Chicago, IL 60609",
+      "description": "A cultural institution dedicated to preserving, exhibiting, and educating visitors about the rich artistic traditions and history of Asia.",
+      "photo": "https://static.wixstatic.com/media/9b667a_237a9573780a4cc7a0af8bdcf3078fb7~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b667a_237a9573780a4cc7a0af8bdcf3078fb7~mv2.jpg",
+      "website": "https://www.heritageasianart.org/",
+      "tags": [
+        "asian art",
+        "cultural museum",
+        "art exhibits",
+        "asian history",
+        "art preservation",
+        "educational programs",
+        "asian culture",
+        "museum",
+        "cultural institution",
+        "traditional art",
+        "asian heritage"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://static.wixstatic.com/media/9b667a_237a9573780a4cc7a0af8bdcf3078fb7~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b667a_237a9573780a4cc7a0af8bdcf3078fb7~mv2.jpg",
+          "alt": "Heritage Museum of Asian Art"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/watch?v=GkwYAhPbQnA",
+          "alt": "Heritage Museum of Asian Art"
+        },
+        {
+          "type": "image",
+          "src": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_1800,h_800/crm/chicago/choosechicago_BE26D711-5056-A36F-231F06DA92928B04_508d304d-5056-a36f-23ac0c94ed384d94.jpg",
+          "alt": "Heritage Museum of Asian Art"
+        }
+      ]
+    },
+    {
+      "id": "chinatown-south-parking-lot",
+      "name": "Chinatown South Parking Lot",
+      "categories": [
+        "parking lots"
+      ],
+      "position": {
+        "lat": 41.8533790165309,
+        "lng": -87.631641434442
+      },
+      "address": "2155 S Wentworth Ave, Chicago, IL 60616",
+      "description": "",
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/DRzR0kxTtJtWqnRAQFwldw/348s.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/DRzR0kxTtJtWqnRAQFwldw/348s.jpg",
+          "alt": "Chinatown South Parking Lot"
+        }
+      ]
+    },
+    {
+      "id": "chinatown-north-parking-lot",
+      "name": "Chinatown North Parking Lot",
+      "categories": [
+        "parking lots"
+      ],
+      "position": {
+        "lat": 41.8549432791703,
+        "lng": -87.6315931812854
+      },
+      "address": "2001 S Wentworth Ave, Chicago, IL 60616",
+      "description": "",
+      "photo": "https://d13esfgglb25od.cloudfront.net/lot_img/31933/dda734240a614a769e0d78c82960611c.jpg",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://d13esfgglb25od.cloudfront.net/lot_img/31933/dda734240a614a769e0d78c82960611c.jpg",
+          "alt": "Chinatown North Parking Lot"
+        }
+      ]
+    },
+    {
+      "id": "wentworth-garage",
+      "name": "Wentworth Garage",
+      "categories": [
+        "parking lots"
+      ],
+      "position": {
+        "lat": 41.85011,
+        "lng": -87.6318
+      },
+      "address": "2345 S Wentworth Ave, Chicago, IL 60616",
+      "description": "",
+      "photo": "https://d2uqqhmijd5j2z.cloudfront.net/files/741161/gallery/Screenshot_31.jpg?1670262323",
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://d2uqqhmijd5j2z.cloudfront.net/files/741161/gallery/Screenshot_31.jpg?1670262323",
+          "alt": "Wentworth Garage"
+        }
+      ]
+    },
+    {
+      "id": "chinese-american-veteran's-memorial",
+      "name": "Chinese American Veteran's Memorial",
+      "categories": [
+        "attractions"
+      ],
+      "position": {
+        "lat": 41.8526385871559,
+        "lng": -87.6349471752568
+      },
+      "address": "Cermak St, and Archer Ave, Chicago, IL 60616",
+      "description": "A commemorative monument honoring the service and sacrifices of Chinese American veterans throughout U.S. history.",
+      "photo": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,w_1800,h_800/crm/chicago/Chinese-American-Vets-Memor0_8afbf91c-5056-a36f-236ffd4dbe267f28.jpg",
+      "tags": [
+        "veterans",
+        "military memorial",
+        "commemorative monument",
+        "U.S. veterans",
+        "Chinese American history",
+        "remembrance",
+        "tribute",
+        "patriotic site",
+        "historical landmark",
+        "military history",
+        "cultural heritage"
+      ],
+      "gallery": [
+        {
+          "type": "image",
+          "src": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,w_1800,h_800/crm/chicago/Chinese-American-Vets-Memor0_8afbf91c-5056-a36f-236ffd4dbe267f28.jpg",
+          "alt": "Chinese American Veteran's Memorial"
+        }
+      ]
+    }
+  ]
+}
