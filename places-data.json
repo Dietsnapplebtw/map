@@ -8,8 +8,8 @@
         "attractions"
       ],
       "position": {
-        "lat": 41.8451,
-        "lng": -87.6336
+        "lat": 41.8541,
+        "lng": -87.63322
       },
       "address": "2133 S China Pl, Chicago, IL 60616",
       "description": "Outdoor plaza with shops and zodiac statues at the heart of Chinatown. Features traditional Chinese architecture and hosts various cultural events throughout the year.",
@@ -88,11 +88,6 @@
         },
         {
           "type": "image",
-          "src": "https://media.cntraveler.com/photos/5f8f04ccf5bb028212972925/16:9/w_2560%2Cc_limit/pingtommemorialpark-chicago-MR01ND.jpg",
-          "alt": "Ping Tom Memorial Park"
-        },
-        {
-          "type": "image",
           "src": "https://assets.dnainfo.com/generated/chicago_photo/2013/05/bucket-list-chinatown-water-taxi-1368477552.jpg/extralarge.jpg",
           "alt": "Ping Tom Memorial Park"
         }
@@ -147,14 +142,9 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/cms/media/reviews/lao-sze-chuan/banners/Lao-Sze-Chuan_0",
-          "alt": "Interior view"
-        },
-        {
           "type": "video",
-          "src": "https://www.youtube.com/embed/TLqYoD-fDZ4?si=S5tJy1MJTyjzx9vk",
-          "alt": "Chef cooking"
+          "src": "https://www.youtube.com/embed/b-zuTzS-_MQ?si=HGTisXMp__sllmsc",
+          "alt": "Lao Sze Chuan"
         }
       ]
     },
@@ -186,6 +176,11 @@
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/2G4QGlaZI2e2sCO7skIyVw/o.jpg",
+          "alt": "Chiu Quon Bakery"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/We914lmuIMU?si=-Foqat3KgLb_MA9-",
           "alt": "Chiu Quon Bakery"
         }
       ]
@@ -253,11 +248,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://chipublib.bibliocommons.com/events/uploads/images/full/b4c2f1ea58572c02e4ed70cd0bb1a18f/chinatown.jpg",
-          "alt": "Chinatown Public Library"
-        },
-        {
-          "type": "image",
           "src": "https://map.lisc-cnda.org/static/1134931d9dca124162af89fe4b08a1a3/8e2a4/featured.jpg",
           "alt": "Chinatown Public Library"
         },
@@ -290,13 +280,6 @@
         "cultural heritage",
         "tourist attraction",
         "Chinese architecture"
-      ],
-      "gallery": [
-        {
-          "type": "image",
-          "src": "https://img1.advisor.travel/1200x630px-Chinatown_Chicago_5.jpg",
-          "alt": "Chinatown Gateway"
-        }
       ]
     },
     {
@@ -320,13 +303,6 @@
         "cultural heritage",
         "education",
         "architecture"
-      ],
-      "gallery": [
-        {
-          "type": "image",
-          "src": "https://playeatlas.com/wp-content/uploads/2024/07/Pui-Tak-Center-scaled.jpg",
-          "alt": "Pui Tak Center"
-        }
       ]
     },
     {
@@ -350,13 +326,8 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://images.letgroup.com/erTBBiYCPz/jqg_1478044628.jpg",
-          "alt": "Jaslin Hotel"
-        },
-        {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=xGFzZKZ0kyM",
+          "src": "https://www.youtube.com/embed/xGFzZKZ0kyM?si=2YFFB5NwMxV3_zBx",
           "alt": "Jaslin Hotel"
         }
       ]
@@ -381,11 +352,6 @@
         "travel"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,w_1800,h_800/crm/chicago/facade-2-_5869EA21-5056-A36F-237552B665FE505C_5235e332-5056-a36f-2313f70f6e398db2.jpg",
-          "alt": "Springhill Suites by Marriot"
-        },
         {
           "type": "image",
           "src": "https://images.letgroup.com/erTBBiYCPz/jqg_1478044974.jpg",
@@ -418,13 +384,8 @@
       ],
       "gallery": [
         {
-          "type": "iamge",
-          "src": "https://fa8ffa61f13fcd246862.cdn6.editmysite.com/uploads/b/fa8ffa61f13fcd246862ed848129460e18b6faf2dbc02708eb8e03ccb5f51169/20230403-1J1A6584_1746200657.jpg?width=2400&optimize=medium",
-          "alt": "Sweet Floral"
-        },
-        {
-          "type": "image",
-          "src": "https://www.youtube.com/shorts/QCNfXbpSHiY",
+          "type": "video",
+          "src": "https://www.youtube.com/embed/QCNfXbpSHiY?si=kEYrTtnSibZPd3pt",
           "alt": "Sweet Floral"
         }
       ]
@@ -450,13 +411,8 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/61/06/16/front-of-the-building.jpg",
-          "alt": "Buddhism Friendship Association"
-        },
-        {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=V7b0yrr0K6I",
+          "src": "https://www.youtube.com/embed/V7b0yrr0K6I?si=5JiSToToNHFGU3yT",
           "alt": "Buddhism Friendship Association"
         }
       ]
@@ -485,11 +441,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://www.mocanyc.org/wp-content/uploads/2022/09/DSCF4813-1200x1800.jpg",
-          "alt": "Chinese American Museum of Chicago"
-        },
-        {
-          "type": "image",
           "src": "https://southsideweekly.com/wp-content/uploads/2017/03/CAM_2017_9.jpg",
           "alt": "Chinese American Museum of Chicago"
         }
@@ -513,11 +464,6 @@
         "bbq"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://i.pinimg.com/736x/46/5f/c0/465fc0059b234a9456e683d0c0642962.jpg",
-          "alt": "Daebak Korean BBQ"
-        },
         {
           "type": "image",
           "src": "https://img1.wsimg.com/isteam/ip/145b0400-f1e3-4ae8-a687-02d515aa60aa/Daebak%20-%20Grilling.jpg",
@@ -547,13 +493,8 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://img1.feinfood.com/upload/hotel2/20231105/7db8121c85d744a6a5da4cd8a17f774a.jpg",
-          "alt": "Hunan Cuisine"
-        },
-        {
           "type": "video",
-          "src": "https://www.youtube.com/shorts/PucjKGsMq3Q",
+          "src": "https://www.youtube.com/embed/PucjKGsMq3Q?si=ApEScc3NZWo5LFlf",
           "alt": "Hunan Cuisine"
         }
       ]
@@ -582,11 +523,6 @@
         ""
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/0Q6c44jVX5_SE7oF-wxBVA/348s.jpg",
-          "alt": "Imperial Restaurant"
-        },
         {
           "type": "image",
           "src": "https://static.wixstatic.com/media/45f381_7331963a716d4fbeaf2dd114cfb7bdc1~mv2.jpg/v1/fill/w_640,h_558,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/45f381_7331963a716d4fbeaf2dd114cfb7bdc1~mv2.jpg",
@@ -620,11 +556,6 @@
         "noodles"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://images.squarespace-cdn.com/content/v1/5eb3059f9086967f5fee3f8b/1616399421835-G7IGIJ0PM7MMOBWR7BGT/%C2%A9DLM+Photography+Design_KenKee_27.jpg",
-          "alt": "Ken Kee Restaurant"
-        },
         {
           "type": "image",
           "src": "https://images.squarespace-cdn.com/content/v1/5eb3059f9086967f5fee3f8b/1936a938-85dc-40bd-ba28-b3b3018ffb45/%C2%A9DLM+Photography+Design_KenKee_26.jpg",
@@ -663,13 +594,8 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Ryt2RPGpU74zjZmNWJsEGA/o.jpg",
-          "alt": "Kung Fu Tea"
-        },
-        {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=R7JTt1XKQ7w",
+          "src": "https://www.youtube.com/embed/R7JTt1XKQ7w?si=Oa7G2ymfTMQCt7EW\"",
           "alt": "Kung Fu Tea"
         },
         {
@@ -701,11 +627,6 @@
         "street food"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/mUADWPDAPXetap1oIT8s1Q/258s.jpg",
-          "alt": "Zhangliang Malatang Chicago"
-        },
         {
           "type": "image",
           "src": "https://website-cdn.menusifu.com/wp-content/uploads/zhangliangtrivalleyca.com/2024/11/86500261-75d5-404a-a190-6efea61192ae-scaled.jpg",
@@ -741,11 +662,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/tqb26xzJXjfKME2HAlgi5w/l.jpg",
-          "alt": "New Great Wall BBQ"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/SoOpx9FNfJtAivLee1JCgg/348s.jpg",
           "alt": "New Great Wall BBQ"
         },
@@ -776,13 +692,8 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://i0.wp.com/bcc-newspack.s3.amazonaws.com/uploads/2025/04/qxy-1024x768.jpg?resize=1024%2C768&ssl=1",
-          "alt": "QingXiangYuan Dumplings"
-        },
-        {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=Omx3gdtBILQ",
+          "src": "https://www.youtube.com/embed/Omx3gdtBILQ?si=KhLQAiOPd_Mm1OrJ",
           "alt": "QingXiangYuan Dumplings"
         },
         {
@@ -818,11 +729,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://static.where-e.com/United_States/Illinois_State/Szechuan-Bistro_ee3134c56f557c157e5a76932da8461d.jpg",
-          "alt": "Szechuan Bistro"
-        },
-        {
-          "type": "image",
           "src": "https://res.cloudinary.com/the-infatuation/image/upload/v1684941909/images/RichlandCenter_Interior_DerrickKoch_Chicago-11_f6ei0s.jpg",
           "alt": "Szechuan Bistro"
         },
@@ -854,11 +760,6 @@
         "tapioca pearls"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://travelsandtreasures.com/wp-content/uploads/2023/02/family_activities_chicago_chinatown-17.jpg",
-          "alt": "Tiger Sugar"
-        },
         {
           "type": "image",
           "src": "https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/qpuxksgv/140aea91-64b4-4eab-a4a0-fb88fb3480d3.jpg",
@@ -894,11 +795,6 @@
         "asian beverages"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://static.where-e.com/United_States/Ume-Tea_2c2ec3cbc54ab34dea7eb87404970735.jpg",
-          "alt": "Ume Tea"
-        },
         {
           "type": "image",
           "src": "https://imgcache.dealmoon.com/fsvrugccache.dealmoon.com/ugc/693/54d/ed3/515dd005b13fa22d7a1cef4.jpg_1280_1280_3_e1ae.jpg",
@@ -937,11 +833,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://media.tzuchi.us/wp-content/uploads/sites/5/2020/09/18161908/TzuchiUSA-veggie-house-chicago_0004_20200917_Veggie-House_YM_%E9%A6%AC%E6%A8%82_2-1350x762.jpg",
-          "alt": "Veggie House"
-        },
-        {
-          "type": "image",
           "src": "https://media.tzuchi.us/wp-content/uploads/sites/5/2020/09/18161915/TzuchiUSA-veggie-house-chicago_0006_20200917_Veggie-House_YM_%E9%A6%AC%E6%A8%82_1-1024x578.jpg",
           "alt": "Veggie House"
         },
@@ -978,13 +869,8 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://www.yepkitchenchicago.com/images/about_img_1.jpg",
-          "alt": "Yep Kitchen"
-        },
-        {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=1VGfhhH8kKs",
+          "src": "https://www.youtube.com/embed/1VGfhhH8kKs?si=HaBJvloh-3zATK8h",
           "alt": "Yep Kitchen"
         },
         {
@@ -1019,11 +905,6 @@
         "cantonese bbq"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://media-cdn.tripadvisor.com/media/photo-s/16/84/c0/9f/bbq-king-house.jpg",
-          "alt": "B.B.Q. King"
-        },
         {
           "type": "image",
           "src": "https://media.timeout.com/images/105389866/image.jpg",
@@ -1062,11 +943,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/26/21/8d/store-front.jpg?w=1200&h=1200&s=1",
-          "alt": "Bonchon Korean Fried Chicken"
-        },
-        {
-          "type": "image",
           "src": "https://antiochherald.com/wp-content/uploads/2022/08/Bonchon-Korean-Style-Chicken-2.jpg",
           "alt": "Bonchon Korean Fried Chicken"
         }
@@ -1096,11 +972,6 @@
         "cozy restaurant"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://d15z892a5np5w4.cloudfront.net/production/chi-cafe-chicago-il-3/images/b880e77569bef864f2/mobilemainbg.jpg",
-          "alt": "Chi Café"
-        },
         {
           "type": "image",
           "src": "https://d15z892a5np5w4.cloudfront.net/production/chi-cafe-chicago-il-3/pictures/img8108-20180808024849.jpg",
@@ -1145,11 +1016,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/GE5EwnAI7aXe24lYpZJj7A/258s.jpg",
-          "alt": "Daboba Tea"
-        },
-        {
-          "type": "image",
           "src": "https://travelsandtreasures.com/wp-content/uploads/2023/11/boba_tea_shop-chicago-7-1024x766.jpg",
           "alt": "Daboba Tea"
         },
@@ -1180,11 +1046,6 @@
         "cantonese cuisine"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://media-cdn.tripadvisor.com/media/photo-s/09/85/e6/77/hing-kee-asian-cuisine.jpg",
-          "alt": "Hing Kee Restaurant"
-        },
         {
           "type": "image",
           "src": "https://static.wixstatic.com/media/9057f7_3eb065ff79fb4b76bd67c31a3bd8fdb1~mv2.jpg/v1/fill/w_640,h_660,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9057f7_3eb065ff79fb4b76bd67c31a3bd8fdb1~mv2.jpg",
@@ -1221,11 +1082,6 @@
         "asian café"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://joyyeenoodle.weebly.com/uploads/5/4/2/1/54217271/9592445.jpg",
-          "alt": "Joy Yee"
-        },
         {
           "type": "image",
           "src": "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_1200,q_auto,fl_lossy,dpr_auto,c_fill,f_auto,h_800,g_auto/oqkfnh7bh5uq8vivfjhg",
@@ -1269,11 +1125,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/gkm1Pa3IPlW8BPJVbDDF4w/o.jpg",
-          "alt": "Kajiken Japanese"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/QctJrSHpaQebae3DDiebnA/348s.jpg",
           "alt": "Kajiken Japanese"
         },
@@ -1307,11 +1158,6 @@
         "family-style dining"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://media.timeout.com/images/101483981/image.jpg",
-          "alt": "Lee Wing Wah"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/GsWowIOumoPIjKGX7BpFAg/o.jpg",
@@ -1352,11 +1198,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/40/77/1c/caption.jpg?w=1200&h=1200&s=1",
-          "alt": "MCCB Restaurant"
-        },
-        {
-          "type": "image",
           "src": "https://urbanmatter.com/chicago/wp-content/uploads/2020/08/MCCB0.jpg",
           "alt": "MCCB Restaurant"
         },
@@ -1393,11 +1234,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/eviTIYLwSz35qgpWIEhPKg/348s.jpg",
-          "alt": "Mango Mango Dessert"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/RK6gcofWrO-ON9hGN3Rt8Q/348s.jpg",
           "alt": "Mango Mango Dessert"
         }
@@ -1427,11 +1263,6 @@
         "traditional matcha"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Re0WFK3Nvz0VP29VhXGfhQ/348s.jpg",
-          "alt": "Matcha En"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/-4zITw8bg6eszb4zCkW9Vg/258s.jpg",
@@ -1464,11 +1295,6 @@
         "seafood"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/eb/0c/55/photo3jpg.jpg",
-          "alt": "Minghin Cuisine"
-        },
         {
           "type": "image",
           "src": "https://static.where-e.com/United_States/Illinois/Cook_County_County/Minghin-Cuisine_a478925d1fb5668f993a55af0fa412a4.jpg",
@@ -1514,11 +1340,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://static.where-e.com/United_States/Saints-Alp-Teahouse_e751137fe38c33da1c40fd9ab3378cd1.jpg",
-          "alt": "Saint's Alp Teahouse"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/JKYnx4Gzz_35rMMyVp8Ppw/348s.jpg",
           "alt": "Saint's Alp Teahouse"
         },
@@ -1556,11 +1377,6 @@
         "tea shop"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/22CABMYW0jwt8I6EjiPzeA/o.jpg",
-          "alt": "Te'Amo Bubble Tea"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/JJBOkORjedXacYllS2TsBQ/348s.jpg",
@@ -1605,11 +1421,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/XkFC6oqmjgW_fQW9L6Eimw/o.jpg",
-          "alt": "Ahjoomah's Apron Korean Restaurant"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/7t44B24oGChgukGX1wTUMg/348s.jpg",
           "alt": "Ahjoomah's Apron Korean Restaurant"
         },
@@ -1643,11 +1454,6 @@
         "hot and spicy food"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/WI1onRJuQpJF0dMnYkvolQ/l.jpg",
-          "alt": "Chef Xiong's Taste of Szechuan"
-        },
         {
           "type": "image",
           "src": "https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/store/header/3d7128ae-27df-4988-b705-6904cd3a8417.jpg",
@@ -1688,11 +1494,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://www.chengdubistroloop.com/Contents/images/items/item5.jpg",
-          "alt": "Dongpo Impression"
-        },
-        {
-          "type": "image",
           "src": "https://d15z892a5np5w4.cloudfront.net/production/greenfish-poke-roll-wauwatosa-wi-3/images/b882b791726debf48e/slide1-20230410070118.jpg",
           "alt": "Dongpo Impression"
         },
@@ -1725,11 +1526,6 @@
         "asian cuisine"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/2e/ee/fe/photo0jpg.jpg?w=1100&h=1100&s=1",
-          "alt": "Golden Bull Restaurant"
-        },
         {
           "type": "image",
           "src": "https://is1-ssl.mzstatic.com/image/thumb/AmzfPb5b9DXdXe9Qh5tsug/1200x800.jpg",
@@ -1767,11 +1563,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://travelsandtreasures.com/wp-content/uploads/2024/06/chicago_chinatown_food_walking_tour_review-.jpg",
-          "alt": "Phoenix Restaurant"
-        },
-        {
-          "type": "image",
           "src": "https://res.cloudinary.com/the-infatuation/image/upload/v1674164676/images/Furama_Dim_Sum_Chicago_cnmrtw.jpg",
           "alt": "Phoenix Restaurant"
         },
@@ -1782,7 +1573,7 @@
         },
         {
           "type": "video",
-          "src": "https://www.youtube.com/shorts/kTIe6AjsOFc",
+          "src": "https://www.youtube.com/embed/kTIe6AjsOFc?si=Raszr1Bw3dscIqVz",
           "alt": "Phoenix Restaurant"
         }
       ]
@@ -1817,11 +1608,6 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/60/3e/85/caption.jpg?w=1100&h=1100&s=1",
-          "alt": "Sushi Plus"
-        },
-        {
           "type": "video",
           "src": "https://www.youtube.com/embed/kw-xzrcscnE?si=ivUDTv7pOhGJarxV&amp;start=10",
           "alt": "Sushi Plus"
@@ -1829,6 +1615,11 @@
         {
           "type": "image",
           "src": "https://static.wixstatic.com/media/f97806_cfdd3190840843a8917d4d959d00cc53~mv2.jpg/v1/fill/w_2500,h_1666,al_c/f97806_cfdd3190840843a8917d4d959d00cc53~mv2.jpg",
+          "alt": "Sushi Plus"
+        },
+        {
+          "type": "video",
+          "src": "https://www.youtube.com/embed/ENHdKIB5KYU?si=2NCORhSunNaf8LGv",
           "alt": "Sushi Plus"
         }
       ]
@@ -1858,11 +1649,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/tRSVWzcJxsMDS3b-pLM6vw/o.jpg",
-          "alt": "Yao Yao Restaurant"
-        },
-        {
-          "type": "image",
           "src": "https://d15z892a5np5w4.cloudfront.net/production/yao-yao-chicago-il-3/images/b885751f0a8248e4e4/desktopbg-20211106110324.jpg",
           "alt": "Yao Yao Restaurant"
         },
@@ -1873,7 +1659,7 @@
         },
         {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=RAGqcMWC-Xg",
+          "src": "https://www.youtube.com/embed/RAGqcMWC-Xg?si=BN8bvVn7c5BGnaYZ",
           "alt": "Yao Yao Restaurant"
         }
       ]
@@ -1901,11 +1687,6 @@
         "family-style dining"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://media.timeout.com/images/100919643/image.jpg",
-          "alt": "Emperors Choice"
-        },
         {
           "type": "image",
           "src": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2d/09/25/7e/caption.jpg",
@@ -1947,11 +1728,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://static.where-e.com/United_States/Evergreen-Restaurant_836969a6fd60c4f73a11956600b0082f.jpg",
-          "alt": "Evergreen Restaurant"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/tcfzRnp5z9-zuU024ka2eA/348s.jpg",
           "alt": "Evergreen Restaurant"
         }
@@ -1981,11 +1757,6 @@
         "barbecue skewers"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/pb_pVKjNPWr7qZNWFcj8mQ/o.jpg",
-          "alt": "Gao's Kabob BBQ"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/2-Y-sZfeiatfgDIBnt348A/l.jpg",
@@ -2025,11 +1796,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://media-cdn.tripadvisor.com/media/photo-s/05/c0/a3/0a/go-4-food.jpg",
-          "alt": "Go 4 Food Restaurant"
-        },
-        {
-          "type": "image",
           "src": "https://res.cloudinary.com/the-infatuation/image/upload/f_auto/q_auto/v1707496067/images/Go_4_Food_Interior_Christian_Luciano_Chicago_hyzdmp.jpg",
           "alt": "Go 4 Food Restaurant"
         },
@@ -2067,11 +1833,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://static.where-e.com/United_States/Illinois_State/Gourmet-Food_1f7f4e7afe52470d0df47f2b0fb90c93.jpg",
-          "alt": "Gourmet Food"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/P2TYcAzlMLPC0eoaIKh8Mw/o.jpg",
           "alt": "Gourmet Food"
         },
@@ -2106,13 +1867,8 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://happy-lamb-hot-pot.weeblyte.com/wp-content/uploads/2023/10/Happy-Lamb-Hot-Pot-Chicago-58.jpg",
-          "alt": "Happy Lamb Hot Pot"
-        },
-        {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=fUAXoVBcRj8",
+          "src": "https://www.youtube.com/embed/fUAXoVBcRj8?si=67fszOnDpCv2hZqU",
           "alt": "Happy Lamb Hot Pot"
         },
         {
@@ -2152,11 +1908,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/YK9hsHD7hjqf0FTar4Abdg/l.jpg",
-          "alt": "Legend Dumpling & Bao"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/T52NlT3LolhrBpdziIJzhQ/o.jpg",
           "alt": "Legend Dumpling & Bao"
         },
@@ -2194,11 +1945,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://static.where-e.com/United_States/Legend-Tasty-House_5fffa55f2acea47d094ffa7bdb237e44.jpg",
-          "alt": "Legend Tasty House"
-        },
-        {
-          "type": "image",
           "src": "https://d15z892a5np5w4.cloudfront.net/production/legend-tasty-house-chicago-il-4/images/b885c48ecd9a1de4ef/slide2-20200619084024.jpg",
           "alt": "Legend Tasty House"
         },
@@ -2233,11 +1979,6 @@
         "all-you-can-eat hot pot"
       ],
       "gallery": [
-        {
-          "type": "iamge",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/JNR9iYrDxpexDuDf08wsew/o.jpg",
-          "alt": "Liuyishou Hotpot"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/s6ke3EKrRnge4RlyHP6zvA/o.jpg",
@@ -2276,11 +2017,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://static.where-e.com/United_States/Original-Triple-Crown-Restaurant_2fb8f5e04fbfb98e8c04bcab37207b00.jpg",
-          "alt": "Original triple Crown Restaurant"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/ptimj739CMv5QT8UpfNmEg/o.jpg",
           "alt": "Original triple Crown Restaurant"
         },
@@ -2316,11 +2052,6 @@
         "hot pot"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/e-VgstdfZ19nUV3L4p7fFA/o.jpg",
-          "alt": "Shinhwa Korean Steakhouse"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/9g_EO1kihdh9-25jKOfFUA/o.jpg",
@@ -2361,11 +2092,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://live.staticflickr.com/65535/48301195916_0fbff8810f_b.jpg",
-          "alt": "Slurp Slurp Noodles"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/9l6kzL0_f1Dh0DsAL1D_cA/o.jpg",
           "alt": "Slurp Slurp Noodles"
         },
@@ -2396,11 +2122,6 @@
         "BBQ meats"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/UH1D864qNEExq7O8AlYNtQ/o.jpg",
-          "alt": "Tai Ho Yee Food"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/YjhyOWHaXx3z3ZuZ_pnwVg/o.jpg",
@@ -2444,11 +2165,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/c_UlDy5Hz7SkZ4NE1dpyuQ/348s.jpg",
-          "alt": "Three Happiness Restaurant"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/lMVAIVZYAgU5aexBmnStAw/o.jpg",
           "alt": "Three Happiness Restaurant"
         },
@@ -2485,11 +2201,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://res.cloudinary.com/the-infatuation/image/upload/v1740594833/images/TripleCrown_Exterior_KimKovacik_Chicago_03_xgswfq.jpg",
-          "alt": "Triple Crown Restaurant"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/whG2dcsqQ7-VIbvscnnniA/o.jpg",
           "alt": "Triple Crown Restaurant"
         },
@@ -2523,11 +2234,6 @@
         "family-style dining"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://imgcache.dealmoon.com/fsvrugccache.dealmoon.com/ugc/f7d/215/1ff/e5ade29f5848a6d1e7955b4.jpg_0_0_40_ce93.jpg",
-          "alt": "Wentworth Seafood House"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/wbD0GeK3EQwVCTrokHGroQ/o.jpg",
@@ -2571,11 +2277,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/EplbMAJwSZqyD3bYATWxfQ/o.jpg",
-          "alt": "Shoo Loong Kan Hotpot"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/N-00swqvWPB9jjcgNueosg/o.jpg",
           "alt": "Shoo Loong Kan Hotpot"
         },
@@ -2591,7 +2292,7 @@
         },
         {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=pUpS_XGXBA0",
+          "src": "https://www.youtube.com/embed/pUpS_XGXBA0?si=maf4pynBtP9-ocz9",
           "alt": "Shoo Loong Kan Hotpot"
         }
       ]
@@ -2621,11 +2322,6 @@
         "flatebread"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/gSuhocACkTUhibzW-FZozA/o.jpg",
-          "alt": "Xi'an Cuisine"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/a3Seg2HbdaLjPbCbvGsV4Q/o.jpg",
@@ -2671,13 +2367,8 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/-pRhuVH4v_OBpPMPpij3WQ/o.jpg",
-          "alt": "Jiang Niu BBQ"
-        },
-        {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=DcmWNPD8zpE",
+          "src": "https://www.youtube.com/embed/DcmWNPD8zpE?si=9Xz9qCi0HbX32a3b",
           "alt": "Jiang Niu BBQ"
         },
         {
@@ -2721,11 +2412,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/vryxqy68cXiJkIhBcwYeTQ/o.jpg",
-          "alt": "Qiao Lin Hotpot"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/mN3fGzmy2XOAoC-URHdExw/o.jpg",
           "alt": "Qiao Lin Hotpot"
         },
@@ -2741,7 +2427,7 @@
         },
         {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=2tVMtiQYPd8",
+          "src": "https://www.youtube.com/embed/2tVMtiQYPd8?si=ycRxs2a_t9ygPn5y",
           "alt": "Qiao Lin Hotpot"
         }
       ]
@@ -2777,11 +2463,6 @@
         "dessert shop"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/7TIVzXMr7-sa9JYO4hbi2A/o.jpg",
-          "alt": "Tous Les Jours"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Z_Ol2IqNIaIDptMBRIelIA/o.jpg",
@@ -2832,11 +2513,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/vlSeq5QoWmM37t5AkN62Gg/o.jpg",
-          "alt": "Paris Baguette"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/KyCEKEE54rgAM2XUSr59_Q/o.jpg",
           "alt": "Paris Baguette"
         },
@@ -2852,7 +2528,7 @@
         },
         {
           "type": "video",
-          "src": "https://www.youtube.com/shorts/Hro_n-Cb1FY",
+          "src": "https://www.youtube.com/embed/xp8PC7JR_EQ?si=LQVR9nWaxD5k2m4J",
           "alt": "Paris Baguette"
         }
       ]
@@ -2886,11 +2562,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/Zx7WFruSP20g83EnDEGiJA/348s.jpg",
-          "alt": "No.1 Salon"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/cq0d4cX9umIyDvNXn6R98A/o.jpg",
           "alt": "No.1 Salon"
         }
@@ -2908,7 +2579,7 @@
       },
       "address": "2145 S China Pl, Chicago, IL 60616",
       "description": "A trendy full-service salon offering expert haircuts, coloring, and styling in a modern and relaxing atmosphere.",
-      "photo": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/482023320_1105940094883146_4702132732992175756_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Zv83S5gPhxcQ7kNvwEmLnOt&_nc_oc=AdnOthjKLxqwidbguZAg3AM8aQWtwRno_fpmyfxoKBNlWEBMq_uZFHAVnE9aOZ6O99N5eYTFBMExhvjkjYAsgvMh&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=cGeo5kp3CIzMlf_3xPKwoA&oh=00_AfdCsCd9hNLR3q_FO36ZvW2tikt8lCh7OHm9ACsbjobOGw&oe=68FED4F4",
+      "photo": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/482023320_1105940094883146_4702132732992175756_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=tWW6sFVs8eQQ7kNvwFdQc_5&_nc_oc=AdlHFJgtyHHtaLKo2n5eGOiuqdCvn4KVDawBRQ_71fL-t5R-9npsAiWTuVpND_tNHloT3xuTFS5hpVxprLlciKwp&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=eGZ0FsNG4yNtaVzeOCWf-Q&oh=00_AfkT80Cb9988m10jMVkOb6G_F-4565U-sJeDkqdZDx-cgA&oe=69564874",
       "website": "https://www.headquarterchicago.net/",
       "tags": [
         "hair salon",
@@ -2921,11 +2592,6 @@
         "personal grooming"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/482023320_1105940094883146_4702132732992175756_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Zv83S5gPhxcQ7kNvwEmLnOt&_nc_oc=AdnOthjKLxqwidbguZAg3AM8aQWtwRno_fpmyfxoKBNlWEBMq_uZFHAVnE9aOZ6O99N5eYTFBMExhvjkjYAsgvMh&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=cGeo5kp3CIzMlf_3xPKwoA&oh=00_AfdCsCd9hNLR3q_FO36ZvW2tikt8lCh7OHm9ACsbjobOGw&oe=68FED4F4",
-          "alt": "Headquater Salon"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/kywbGipcv-Z5dJQMBERxpA/l.jpg",
@@ -2963,11 +2629,6 @@
         "trendy nails"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/b_PrdjfZbXnZK4XqxCoV-g/348s.jpg",
-          "alt": "UwU Nails"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/PLWkrPVzCn7SqgJUMcU1Zw/o.jpg",
@@ -3010,11 +2671,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/bOfjsus0FkGVTKOA48d69Q/o.jpg",
-          "alt": "Volar Salon"
-        },
-        {
-          "type": "image",
           "src": "https://images.squarespace-cdn.com/content/v1/636b1cbed3ae5a555a90132d/53d9d2b1-c057-4670-9dd9-a47cd03d2ea5/shop1-bg.jpg",
           "alt": "Volar Salon"
         }
@@ -3047,11 +2703,6 @@
         "Chinatown shopping"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://res.cloudinary.com/the-infatuation/image/upload/f_auto/q_auto/v1665161009/images/KimKovacik_Chi_88Marketplace_Exterior_01_1_ggoiza.jpg",
-          "alt": "88 Marketplace"
-        },
         {
           "type": "image",
           "src": "https://88marketplace.com/wp-content/uploads/2023/04/4.jpg",
@@ -3092,11 +2743,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://static.where-e.com/United_States/Illinois/Cook_County/Park-To-Shop-Supermarket-Hong-Kong-Market_85f158ae5efa2fdfbb72c2280c83d886.jpg",
-          "alt": "Park to Shop"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/bglgskeVcuSsGTNmRNLrdA/o.jpg",
           "alt": "Park to Shop"
         },
@@ -3114,7 +2760,7 @@
         "stores"
       ],
       "position": {
-        "lat": 41.85460,
+        "lat": 41.8546,
         "lng": -87.63302
       },
       "address": "2117A S China Pl, Chicago, IL 60616",
@@ -3134,11 +2780,6 @@
         "imported snacks"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/HC0Yz2mG4WsTrwb1jRSDiw/o.jpg",
-          "alt": "Ichiban Candy & Snacks"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/GO-6X9zbrVBFhOG-rJH0ZQ/o.jpg",
@@ -3180,11 +2821,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/YoO_mrsIcZaTBx8d5d-BSQ/o.jpg",
-          "alt": "Rong City Houseware & Restaurant Supply"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/zeLdqowiATrE9_1gVOkFZw/o.jpg",
           "alt": "Rong City Houseware & Restaurant Supply"
         },
@@ -3218,13 +2854,6 @@
         "figurines",
         "pop culture items",
         "novelty gifts"
-      ],
-      "gallery": [
-        {
-          "type": "image",
-          "src": "https://img-us.didaudo.net/us-locations/US/000/011/11233/2bg-gift-shop-souvenir-anime0.jpg?output=webp&fit=cover&w=800&h=600",
-          "alt": "BG Gift Shop Souvenir & Anime"
-        }
       ]
     },
     {
@@ -3281,11 +2910,6 @@
       "gallery": [
         {
           "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/bzn16aajrUDBu_7P43rzLw/o.jpg",
-          "alt": "Sakura Karaoke Bar"
-        },
-        {
-          "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/DhXGtVypkHRsqBfXOOfnUg/o.jpg",
           "alt": "Sakura Karaoke Bar"
         },
@@ -3332,11 +2956,6 @@
         "late-night entertainment"
       ],
       "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/MGWnXpCwld6Zws_F-YN0yg/o.jpg",
-          "alt": "No.18 Karaoke Bar"
-        },
         {
           "type": "image",
           "src": "https://s3-media0.fl.yelpcdn.com/bphoto/hdVbMXzReFexkDsr3XGsOA/o.jpg",
@@ -3389,13 +3008,8 @@
       ],
       "gallery": [
         {
-          "type": "image",
-          "src": "https://static.wixstatic.com/media/9b667a_237a9573780a4cc7a0af8bdcf3078fb7~mv2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b667a_237a9573780a4cc7a0af8bdcf3078fb7~mv2.jpg",
-          "alt": "Heritage Museum of Asian Art"
-        },
-        {
           "type": "video",
-          "src": "https://www.youtube.com/watch?v=GkwYAhPbQnA",
+          "src": "https://www.youtube.com/embed/GkwYAhPbQnA?si=CbVxdN05CO5JoFYE",
           "alt": "Heritage Museum of Asian Art"
         },
         {
@@ -3417,14 +3031,7 @@
       },
       "address": "2155 S Wentworth Ave, Chicago, IL 60616",
       "description": "",
-      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/DRzR0kxTtJtWqnRAQFwldw/348s.jpg",
-      "gallery": [
-        {
-          "type": "image",
-          "src": "https://s3-media0.fl.yelpcdn.com/bphoto/DRzR0kxTtJtWqnRAQFwldw/348s.jpg",
-          "alt": "Chinatown South Parking Lot"
-        }
-      ]
+      "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/DRzR0kxTtJtWqnRAQFwldw/348s.jpg"
     },
     {
       "id": "chinatown-north-parking-lot",
@@ -3438,14 +3045,7 @@
       },
       "address": "2001 S Wentworth Ave, Chicago, IL 60616",
       "description": "",
-      "photo": "https://d13esfgglb25od.cloudfront.net/lot_img/31933/dda734240a614a769e0d78c82960611c.jpg",
-      "gallery": [
-        {
-          "type": "image",
-          "src": "https://d13esfgglb25od.cloudfront.net/lot_img/31933/dda734240a614a769e0d78c82960611c.jpg",
-          "alt": "Chinatown North Parking Lot"
-        }
-      ]
+      "photo": "https://d13esfgglb25od.cloudfront.net/lot_img/31933/dda734240a614a769e0d78c82960611c.jpg"
     },
     {
       "id": "wentworth-garage",
@@ -3459,14 +3059,7 @@
       },
       "address": "2345 S Wentworth Ave, Chicago, IL 60616",
       "description": "",
-      "photo": "https://d2uqqhmijd5j2z.cloudfront.net/files/741161/gallery/Screenshot_31.jpg?1670262323",
-      "gallery": [
-        {
-          "type": "image",
-          "src": "https://d2uqqhmijd5j2z.cloudfront.net/files/741161/gallery/Screenshot_31.jpg?1670262323",
-          "alt": "Wentworth Garage"
-        }
-      ]
+      "photo": "https://d2uqqhmijd5j2z.cloudfront.net/files/741161/gallery/Screenshot_31.jpg?1670262323"
     },
     {
       "id": "chinese-american-veteran's-memorial",
@@ -3493,13 +3086,6 @@
         "historical landmark",
         "military history",
         "cultural heritage"
-      ],
-      "gallery": [
-        {
-          "type": "image",
-          "src": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,w_1800,h_800/crm/chicago/Chinese-American-Vets-Memor0_8afbf91c-5056-a36f-236ffd4dbe267f28.jpg",
-          "alt": "Chinese American Veteran's Memorial"
-        }
       ]
     }
   ]

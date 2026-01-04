@@ -12,8 +12,20 @@
         <div id="map"></div>
 
         <aside id="info-panel">
+          <!-- Mobile drag handle -->
+          <div class="mobile-drag-handle" id="dragHandle">
+            <div class="drag-bar"></div>
+          </div>
+          
           <div class="panel-header">
             <input id="searchInput" class="search-input" type="search" placeholder="Search places..." />
+            <!-- Mobile close button -->
+            <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Close panel">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
           </div>
 
           <div class="panel-body">
@@ -37,10 +49,22 @@
           </div>
         </aside>
 
-        <!-- Toggle button - now outside the panel -->
+        <!-- Toggle button - now outside the panel (desktop only) -->
         <button class="toggle-btn" id="toggleBtn" title="Collapse/expand panel" aria-label="Toggle panel">
           <svg viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <!-- Mobile: Backdrop overlay -->
+        <div class="panel-backdrop" id="panelBackdrop"></div>
+
+        <!-- Mobile: Floating Action Button to open panel -->
+        <button class="mobile-fab" id="mobileFab" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
           </svg>
         </button>
       </div>
@@ -235,22 +259,127 @@
       }
 
       // Panel toggle, search, rendering
+      // Mobile detection helper - uses matchMedia for reliable detection with DevTools
+      function isMobile() {
+        return window.matchMedia("(max-width: 768px)").matches;
+      }
+
+      // ============ MOBILE PANEL FUNCTIONS (Global scope) ============
+      function openMobilePanel() {
+        const appEl = document.getElementById("app");
+        appEl.classList.add("panel-open");
+        appEl.classList.remove("panel-peek");
+        document.body.style.overflow = "hidden"; // Prevent background scroll
+      }
+
+      function closeMobilePanel() {
+        const appEl = document.getElementById("app");
+        appEl.classList.remove("panel-open", "panel-peek");
+        document.body.style.overflow = "";
+        document.getElementById("info-panel").style.transform = ""; // Reset any drag transform
+      }
+
       function setupPanel() {
         const appEl = document.getElementById("app");
         const toggleBtn = document.getElementById("toggleBtn");
         const searchInput = document.getElementById("searchInput");
         const backButton = document.getElementById("backButton");
+        
+        // Mobile elements
+        const panel = document.getElementById("info-panel");
+        const dragHandle = document.getElementById("dragHandle");
+        const mobileCloseBtn = document.getElementById("mobileCloseBtn");
+        const mobileFab = document.getElementById("mobileFab");
+        const backdrop = document.getElementById("panelBackdrop");
 
+        // Desktop toggle
         toggleBtn.addEventListener("click", () => {
           appEl.classList.toggle("collapsed");
         });
 
+        // Search input
         searchInput.addEventListener("input", () => {
           renderCategories(searchInput.value.trim().toLowerCase());
         });
 
+        // Back button
         backButton.addEventListener("click", () => {
           showCategoryView();
+        });
+
+        // ============ MOBILE BOTTOM SHEET EVENTS ============
+        
+        // FAB click - open panel
+        mobileFab.addEventListener("click", openMobilePanel);
+
+        // Close button click
+        mobileCloseBtn.addEventListener("click", closeMobilePanel);
+
+        // Backdrop click - close panel
+        backdrop.addEventListener("click", closeMobilePanel);
+
+        // ============ SWIPE GESTURE HANDLING ============
+        let startY = 0;
+        let currentY = 0;
+        let isDragging = false;
+        const SWIPE_THRESHOLD = 100; // pixels to trigger close
+
+        function handleTouchStart(e) {
+          if (!isMobile()) return;
+          startY = e.touches[0].clientY;
+          isDragging = true;
+          panel.classList.add("dragging");
+        }
+
+        function handleTouchMove(e) {
+          if (!isDragging || !isMobile()) return;
+          
+          currentY = e.touches[0].clientY;
+          const deltaY = currentY - startY;
+          
+          // Only allow dragging down (positive deltaY)
+          if (deltaY > 0) {
+            panel.style.transform = `translateY(${deltaY}px)`;
+          }
+        }
+
+        function handleTouchEnd(e) {
+          if (!isDragging || !isMobile()) return;
+          
+          isDragging = false;
+          panel.classList.remove("dragging");
+          panel.style.transform = ""; // Reset inline style
+          
+          const deltaY = currentY - startY;
+          
+          // If swiped down enough, close the panel
+          if (deltaY > SWIPE_THRESHOLD) {
+            closeMobilePanel();
+          }
+          
+          // Reset values
+          startY = 0;
+          currentY = 0;
+        }
+
+        // Attach touch events to drag handle
+        dragHandle.addEventListener("touchstart", handleTouchStart, { passive: true });
+        dragHandle.addEventListener("touchmove", handleTouchMove, { passive: true });
+        dragHandle.addEventListener("touchend", handleTouchEnd);
+
+        // Also allow swiping from panel header area
+        const panelHeader = document.querySelector(".panel-header");
+        panelHeader.addEventListener("touchstart", handleTouchStart, { passive: true });
+        panelHeader.addEventListener("touchmove", handleTouchMove, { passive: true });
+        panelHeader.addEventListener("touchend", handleTouchEnd);
+
+        // Handle window resize - close mobile panel if switching to desktop
+        window.addEventListener("resize", () => {
+          if (!isMobile()) {
+            appEl.classList.remove("panel-open", "panel-peek");
+            document.body.style.overflow = "";
+            panel.style.transform = "";
+          }
         });
       }
 
@@ -360,10 +489,17 @@
 
         showDetails(place);
 
-        // Ensure panel open
+        // Ensure panel open - handle both desktop and mobile
         const appEl = document.getElementById("app");
-        if (appEl.classList.contains("collapsed")) {
-          appEl.classList.remove("collapsed");
+        
+        if (isMobile()) {
+          // Mobile: open the bottom sheet
+          openMobilePanel();
+        } else {
+          // Desktop: remove collapsed state
+          if (appEl.classList.contains("collapsed")) {
+            appEl.classList.remove("collapsed");
+          }
         }
       }
 
@@ -422,7 +558,7 @@ if (mediaItems.length > 0) {
       mediaHtml += `
         <div class="thumbnail ${isActive}" data-index="${index}" data-type="${item.type}" data-src="${item.src}">
           <img src="${thumbSrc}" alt="${item.alt || place.name}" />
-          ${item.type === 'video' ? '<div class="play-icon">â–¶</div>' : ''}
+          ${item.type === 'video' ? '<div class="play-icon"></div>' : ''}
         </div>
       `;
     });
