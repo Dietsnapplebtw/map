@@ -134,7 +134,7 @@
       "address": "2172 S Archer Ave, Chicago, IL 60616",
       "description": "Renowned Sichuan restaurant famous for authentic spicy dishes like dry chili chicken, mapo tofu, and hand-pulled noodles. A must-visit for lovers of bold, fiery flavors.",
       "photo": "https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/cms/media/reviews/lao-sze-chuan/banners/Lao-Sze-Chuan_0",
-      "website": "https://www.laoszechuan.com/",
+      "website": "https://www.laoszechuanusa.com",
       "tags": [
         "sichuan",
         "spicy",
@@ -142,8 +142,18 @@
       ],
       "gallery": [
         {
+          "type": "image",
+          "src": "https://gcdnb.pbrd.co/images/ECfWZidVz64K.png?o=1",
+          "alt": "Interior view"
+        },
+        {
           "type": "video",
           "src": "https://www.youtube.com/embed/b-zuTzS-_MQ?si=HGTisXMp__sllmsc",
+          "alt": "Lao Sze Chuan"
+        },
+        {
+          "type": "image",
+          "src": "https://static.wixstatic.com/media/21354f_dc40874469c04351b10f1e8b13f305b3~mv2.jpg/v1/fit/w_1245,h_985,q_90,enc_avif,quality_auto/21354f_dc40874469c04351b10f1e8b13f305b3~mv2.jpg",
           "alt": "Lao Sze Chuan"
         }
       ]
