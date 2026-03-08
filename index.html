@@ -82,22 +82,36 @@
         { featureType: "administrative", elementType: "labels", stylers: [{ visibility: "off" }] }
       ];
 
-      // Category config with colors and emoji icons (used for markers and headers)
+      // Category config with colors and SVG icons (used for markers and sidebar headers)
       const CATEGORY_ORDER = [
-        { id: "recommended", label: "Recommended", colorClass: "c-recommended", color: "#f5c518", emoji: "⭐" },
-        { id: "attractions", label: "Attractions", colorClass: "c-attractions", color: "#8e44ad", emoji: "📸" },
-        { id: "restaurants", label: "Restaurants", colorClass: "c-restaurants", color: "#e74c3c", emoji: "🍴" },
-        { id: "hotels", label: "Hotels", colorClass: "c-hotels", color: "#e67e22", emoji: "🏨" },
-        { id: "beverage", label: "Beverage", colorClass: "c-beverage", color: "#795548", emoji: "☕" },
-        { id: "dessert", label: "Dessert", colorClass: "c-dessert", color: "#ff6b9d", emoji: "🍰" },
-        { id: "stores", label: "Stores", colorClass: "c-stores", color: "#2980b9", emoji: "🛍️" },
-        { id: "salon", label: "Salon", colorClass: "c-salon", color: "#9c27b0", emoji: "💇" },
-        { id: "beauty", label: "Beauty", colorClass: "c-beauty", color: "#ec407a", emoji: "💄" },
-        { id: "super market", label: "Supermarket", colorClass: "c-supermarket", color: "#4caf50", emoji: "🛒" },
-        { id: "entertainment", label: "Entertainment", colorClass: "c-entertainment", color: "#ff5722", emoji: "🎭" },
-        { id: "transit", label: "Public Transit", colorClass: "c-transit", color: "#16a085", emoji: "🚇" },
-        { id: "parks", label: "Parks", colorClass: "c-parks", color: "#2ecc71", emoji: "🌳" },
-        { id: "parking lots", label: "Parking Lots", colorClass: "c-parkinglots", color: "#607d8b", emoji: "🅿️" }
+        { id: "recommended",   label: "Recommended",   colorClass: "c-recommended",  color: "#f5c518",
+          iconPath: "M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" },
+        { id: "attractions",   label: "Attractions",   colorClass: "c-attractions",  color: "#8e44ad",
+          iconPath: "M12 15.2c1.77 0 3.2-1.43 3.2-3.2S13.77 8.8 12 8.8 8.8 10.23 8.8 12s1.43 3.2 3.2 3.2zM9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z" },
+        { id: "restaurants",   label: "Restaurants",   colorClass: "c-restaurants",  color: "#e74c3c",
+          iconPath: "M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z" },
+        { id: "hotels",        label: "Hotels",        colorClass: "c-hotels",       color: "#e67e22",
+          iconPath: "M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4z" },
+        { id: "beverage",      label: "Beverage",      colorClass: "c-beverage",     color: "#795548",
+          iconPath: "M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z" },
+        { id: "dessert",       label: "Dessert",       colorClass: "c-dessert",      color: "#ff6b9d",
+          iconPath: "M12 3C8 3 4 5 4 9c0 2.39 1.28 4.37 3.25 5.47L6 22h12l-1.25-7.53C18.72 13.37 20 11.39 20 9c0-4-4-6-8-6zm0 2c3.31 0 6 1.79 6 4s-2.69 4-6 4-6-1.79-6-4 2.69-4 6-4z" },
+        { id: "stores",        label: "Stores",        colorClass: "c-stores",       color: "#2980b9",
+          iconPath: "M18 6h-2c0-2.21-1.79-4-4-4S8 3.79 8 6H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-6-2c1.1 0 2 .9 2 2h-4c0-1.1.9-2 2-2zm6 16H6V8h2v2c0 .55.45 1 1 1s1-.45 1-1V8h4v2c0 .55.45 1 1 1s1-.45 1-1V8h2v12z" },
+        { id: "salon",         label: "Salon",         colorClass: "c-salon",        color: "#9c27b0",
+          iconPath: "M9.64 7.64c.23-.5.36-1.05.36-1.64 0-2.21-1.79-4-4-4S2 3.79 2 6s1.79 4 4 4c.59 0 1.14-.13 1.64-.36L10 12l-2.36 2.36C7.14 14.13 6.59 14 6 14c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4c0-.59-.13-1.14-.36-1.64L12 14l7 7h3v-1L9.64 7.64zM6 8c-1.1 0-2-.89-2-2s.9-2 2-2 2 .89 2 2-.9 2-2 2zm0 12c-1.1 0-2-.89-2-2s.9-2 2-2 2 .89 2 2-.9 2-2 2zm6-7.5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5.5.22.5.5-.22.5-.5.5zM19 3l-6 6 2 2 7-7V3z" },
+        { id: "beauty",        label: "Beauty",        colorClass: "c-beauty",       color: "#ec407a",
+          iconPath: "M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zM19 15l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25L19 15z" },
+        { id: "super market",  label: "Supermarket",   colorClass: "c-supermarket",  color: "#4caf50",
+          iconPath: "M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96C5 16.1 6.1 17 7 17h11v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63H16c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1 1 0 0 0 20.5 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" },
+        { id: "entertainment", label: "Entertainment", colorClass: "c-entertainment",color: "#ff5722",
+          iconPath: "M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-9 13H9v-2h2v2zm0-4H9V7h2v4zm4 4h-2v-2h2v2zm0-4h-2V7h2v4z" },
+        { id: "transit",       label: "Public Transit",colorClass: "c-transit",      color: "#16a085",
+          iconPath: "M12 2c-4 0-8 .5-8 4v9.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h12v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V6c0-3.5-3.58-4-8-4zM7.5 17c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm3.5-6H6V6h5v5zm5.5 6c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm1.5-6h-5V6h5v5z" },
+        { id: "parks",         label: "Parks",         colorClass: "c-parks",        color: "#2ecc71",
+          iconPath: "M13 16h-2v-4.59L7.5 8H5.36L9 4.83V2h2v3.17L14.64 8H12.5l-3.5 3.41V16h-2zm-1 2H6l-1 4h12l-1-4h-4zm1-12.17V2h-2v1.83C8.52 4.22 7 5.98 7 8c0 2.76 2.24 5 5 5s5-2.24 5-5c0-2.02-1.52-3.78-4-4.17z" },
+        { id: "parking lots",  label: "Parking Lots",  colorClass: "c-parkinglots",  color: "#607d8b",
+          iconPath: "M13 3H6v18h4v-6h3c3.31 0 6-2.69 6-6s-2.69-6-6-6zm.2 8H10V7h3.2c1.1 0 2 .9 2 2s-.9 2-2 2z" }
       ];
       const CATEGORY_BY_ID = Object.fromEntries(CATEGORY_ORDER.map(c => [c.id, c]));
 
@@ -109,18 +123,22 @@
       const markersById = new Map();
       let currentTooltip = null;
 
-      // Make a colored pin symbol (supports marker label for emoji)
-      function makePinSymbol(hex) {
-        return {
-          path: "M12 2C8.134 2 5 5.134 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7z",
-          fillColor: hex,
-          fillOpacity: 1,
-          strokeColor: "#333",
-          strokeWeight: 1,
-          scale: 1.4,
-          anchor: new google.maps.Point(12, 22),     // bottom center
-          labelOrigin: new google.maps.Point(12, 10) // where the emoji sits
-        };
+      // Creates an HTML pin element for AdvancedMarkerElement
+      function makeMarkerContent(color, iconPath) {
+        const el = document.createElement("div");
+        el.style.cssText = "width:32px;height:40px;position:relative;cursor:pointer;";
+        el.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 40" width="32" height="40">
+            <path d="M16 2C9.373 2 4 7.373 4 14c0 9 12 26 12 26S28 23 28 14C28 7.373 22.627 2 16 2z"
+                  fill="${color}" stroke="rgba(0,0,0,0.25)" stroke-width="1.5"/>
+          </svg>
+          <div style="position:absolute;top:7px;left:50%;transform:translateX(-50%);line-height:0;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" fill="white">
+              <path d="${iconPath}"/>
+            </svg>
+          </div>
+        `;
+        return el;
       }
 
       function primaryCategoryId(place) {
@@ -147,7 +165,7 @@
         
         overlay.draw = function() {
           const projection = this.getProjection();
-          const position = marker.getPosition();
+          const position = marker.position ? new google.maps.LatLng(marker.position.lat, marker.position.lng) : null;
           
           if (projection && position) {
             const pixelPosition = projection.fromLatLngToDivPixel(position);
@@ -207,43 +225,38 @@
           fullscreenControlOptions: {
             position: google.maps.ControlPosition.LEFT_BOTTOM
           },
+          keyboardShortcuts: false, // Disable keyboard navigation button
+          panControl: false, // Disable pan arrow buttons
+          zoomControl: false, // Disable zoom +/- buttons
+          cameraControl: false, // Disable camera/pan controls (newer API)
           clickableIcons: false,
           styles: MAP_STYLE,
-          restriction: { latLngBounds: CHINATOWN_BOUNDS, strictBounds: true }
+          restriction: { latLngBounds: CHINATOWN_BOUNDS, strictBounds: true },
+          mapId: "a935a770417c51b0a7d99cd2"
         });
 
         // Transit overlay
         const transitLayer = new google.maps.TransitLayer();
         transitLayer.setMap(map);
 
-        // Build markers with category-specific emoji labels and pin colors
+        // Build markers using AdvancedMarkerElement with SVG pin icons
+        const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
         places.forEach(place => {
           const catId = primaryCategoryId(place);
           const cfg = CATEGORY_BY_ID[catId] || CATEGORY_BY_ID.attractions;
-          const marker = new google.maps.Marker({
+
+          const markerEl = makeMarkerContent(cfg.color, cfg.iconPath);
+
+          const marker = new AdvancedMarkerElement({
             position: place.position,
             map,
             title: place.name,
-            icon: makePinSymbol(cfg.color),
-            label: {
-              text: cfg.emoji,
-              color: "#111",
-              fontSize: "14px",
-              fontWeight: "600"
-            }
+            content: markerEl
           });
 
-          // Add click listener
           marker.addListener("click", () => focusPlace(place.id));
-
-          // Add hover listeners for tooltip
-          marker.addListener("mouseover", () => {
-            showTooltip(marker, place.name);
-          });
-
-          marker.addListener("mouseout", () => {
-            hideTooltip();
-          });
+          markerEl.addEventListener("mouseenter", () => showTooltip(marker, place.name));
+          markerEl.addEventListener("mouseleave", () => hideTooltip());
 
           markersById.set(place.id, marker);
         });
@@ -251,6 +264,11 @@
         // Panel interactions
         setupPanel();
         renderCategories(); // initial render
+
+        // Auto-open bottom sheet on mobile when page loads
+        if (isMobile()) {
+          openMobilePanel();
+        }
 
         // Hide tooltip when map is moved or clicked
         map.addListener("drag", hideTooltip);
@@ -421,7 +439,9 @@
           header.className = "cat-header";
           header.innerHTML = `
             <span class="cat-left">
-              <span class="cat-emoji" title="${cat.label}">${cat.emoji}</span>
+              <span class="cat-icon" title="${cat.label}" style="width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;background:${cat.color};flex-shrink:0;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12" fill="white"><path d="${cat.iconPath}"/></svg>
+              </span>
               <span>${cat.label}</span>
             </span>
             <span style="display: flex; align-items: center; gap: 8px;">
@@ -678,6 +698,6 @@ function setupGallery() {
     </script>
 
     <!-- Google Maps API - using a demo key, replace with your own -->
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNDkhldj0ECUkMzYJpqGlXbRfmKYLw6Sc&v=weekly&callback=initMap&loading=async"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNDkhldj0ECUkMzYJpqGlXbRfmKYLw6Sc&v=weekly&libraries=marker&callback=initMap&loading=async"></script>
   </body>
 </html>

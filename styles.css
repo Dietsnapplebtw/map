@@ -287,8 +287,8 @@ body {
   border-bottom: 2px solid #333;
 }
 
-.media img,
-.media iframe {
+.media > img,
+.media > iframe {
   width: 100%;
   height: 240px;
   object-fit: cover;
@@ -660,9 +660,14 @@ body {
     padding: 12px 16px;
   }
   
-  .media img,
-  .media iframe {
-    height: 200px;
+  .media {
+    background: #1a1a1a; /* Dark background for letterboxing */
+  }
+  
+  .media > img,
+  .media > iframe {
+    height: 220px;
+    object-fit: contain; /* Show full image without cropping */
   }
   
   .thumbnail {
@@ -723,8 +728,8 @@ body {
     position: fixed;
     bottom: 24px;
     right: 24px;
-    width: 56px;
-    height: 56px;
+    width: 72px;
+    height: 72px;
     background: #007bff;
     border: 2px solid #333;
     border-radius: 50%;
@@ -734,7 +739,7 @@ body {
     justify-content: center;
     cursor: pointer;
     z-index: 998;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
   }
   
   .mobile-fab:hover,
@@ -744,8 +749,8 @@ body {
   }
   
   .mobile-fab svg {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     stroke: white;
   }
   
